@@ -4,7 +4,7 @@
 ____
 
 Flashing example for this keyboard:
-s
+
     qmk flash -kb cmdeck -km default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools).
