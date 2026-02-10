@@ -1,0 +1,3806 @@
+#
+UNITS=MM
+ID=13840
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+#
+# CMP 0
+CMP 5 280 126 90 N J1 HARWIN_M55-6001242R ;0=1;ID=13393
+PRP MANUFACTURER 'Harwin'
+PRP MAXIMUM_PACKAGE_HEIGHT '7.5mm'
+PRP PARTREV '8'
+PRP STANDARD 'Manufacturer Recommendations'
+PRP VALUE 'M55-6001242R'
+TOP 0 282.75 125.365 90 N 2 9 A4
+TOP 1 282.75 126.635 90 N 12 2 A3
+TOP 2 282.75 124.095 90 N 15 2 A5
+TOP 3 282.75 122.825 90 N 14 2 A6
+TOP 4 282.75 127.905 90 N 13 2 A2
+TOP 5 282.75 129.175 90 N 2 10 A1
+TOP 6 277.25 129.175 90 N 18 0 B1
+TOP 7 277.25 127.905 90 N 19 0 B2
+TOP 8 277.25 126.635 90 N 8 2 B3
+TOP 9 277.25 125.365 90 N 2 11 B4
+TOP 10 277.25 124.095 90 N 20 0 B5
+TOP 11 277.25 122.825 90 N 21 0 B6
+TOP 12 277.55 131.67 90 N 0 18 SH2
+TOP 13 282.45 131.67 90 N 0 19 SH1
+TOP 14 277.55 120.33 90 N 0 20 SH4
+TOP 15 282.45 120.33 90 N 0 21 SH3
+#
+# CMP 1
+CMP 5 39 126 90 N J2 HARWIN_M55-6001242R ;0=1;ID=13398
+PRP MANUFACTURER 'Harwin'
+PRP MAXIMUM_PACKAGE_HEIGHT '7.5mm'
+PRP PARTREV '8'
+PRP STANDARD 'Manufacturer Recommendations'
+PRP VALUE 'M55-6001242R'
+TOP 0 41.75 125.365 90 N 10 2 A4
+TOP 1 41.75 126.635 90 N 10 3 A3
+TOP 2 41.75 124.095 90 N 22 0 A5
+TOP 3 41.75 122.825 90 N 23 0 A6
+TOP 4 41.75 127.905 90 N 2 12 A2
+TOP 5 41.75 129.175 90 N 2 13 A1
+TOP 6 36.25 129.175 90 N 1 1 B1
+TOP 7 36.25 127.905 90 N 3 1 B2
+TOP 8 36.25 126.635 90 N 4 1 B3
+TOP 9 36.25 125.365 90 N 5 1 B4
+TOP 10 36.25 124.095 90 N 6 1 B5
+TOP 11 36.25 122.825 90 N 7 1 B6
+TOP 12 36.55 131.67 90 N 0 22 SH2
+TOP 13 41.45 131.67 90 N 0 23 SH1
+TOP 14 36.55 120.33 90 N 0 24 SH4
+TOP 15 41.45 120.33 90 N 0 25 SH3
+#
+# CMP 2
+CMP 6 160.02 121.92 270 N U1 QFN40P700X700X90-57N ;0=1;ID=13401
+PRP MANUFACTURER 'Raspberry Pi'
+PRP MAXIMUM_PACKAGE_HEIGHT '0.90 mm'
+PRP PARTREV '2.2'
+PRP STANDARD 'IPC 7351B'
+PRP VALUE 'SC0914(13)'
+TOP 0 156.585 119.32 270 N 24 0 15
+TOP 1 156.585 119.72 270 N 25 0 16
+TOP 2 156.585 120.12 270 N 26 0 17
+TOP 3 156.585 120.52 270 N 27 0 18
+TOP 4 156.585 120.92 270 N 2 14 19
+TOP 5 156.585 121.32 270 N 28 0 20
+TOP 6 156.585 121.72 270 N 29 0 21
+TOP 7 156.585 122.12 270 N 30 0 22
+TOP 8 156.585 122.52 270 N 31 0 23
+TOP 9 156.585 122.92 270 N 17 1 24
+TOP 10 156.585 123.32 270 N 16 1 25
+TOP 11 156.585 123.72 270 N 32 0 26
+TOP 12 156.585 124.12 270 N 33 0 27
+TOP 13 156.585 124.52 270 N 34 0 28
+TOP 14 163.455 124.52 270 N 30 1 43
+TOP 15 163.455 124.12 270 N 30 2 44
+TOP 16 163.455 123.72 270 N 31 1 45
+TOP 17 163.455 123.32 270 N 35 0 46
+TOP 18 163.455 122.92 270 N 36 0 47
+TOP 19 163.455 122.52 270 N 30 3 48
+TOP 20 163.455 122.12 270 N 30 4 49
+TOP 21 163.455 121.72 270 N 31 2 50
+TOP 22 163.455 121.32 270 N 37 0 51
+TOP 23 163.455 120.92 270 N 38 0 52
+TOP 24 163.455 120.52 270 N 39 0 53
+TOP 25 163.455 120.12 270 N 40 0 54
+TOP 26 163.455 119.72 270 N 41 0 55
+TOP 27 163.455 119.32 270 N 0 26 56
+TOP 28 162.62 118.485 270 N 30 5 1
+TOP 29 162.22 118.485 270 N 42 0 2
+TOP 30 161.82 118.485 270 N 43 0 3
+TOP 31 161.42 118.485 270 N 44 0 4
+TOP 32 161.02 118.485 270 N 45 0 5
+TOP 33 160.62 118.485 270 N 46 0 6
+TOP 34 160.22 118.485 270 N 47 0 7
+TOP 35 159.82 118.485 270 N 48 0 8
+TOP 36 159.42 118.485 270 N 49 0 9
+TOP 37 159.02 118.485 270 N 30 6 10
+TOP 38 158.62 118.485 270 N 50 0 11
+TOP 39 158.22 118.485 270 N 51 0 12
+TOP 40 157.82 118.485 270 N 52 0 13
+TOP 41 157.42 118.485 270 N 53 0 14
+TOP 42 157.42 125.355 270 N 54 0 29
+TOP 43 157.82 125.355 270 N 55 0 30
+TOP 44 158.22 125.355 270 N 56 0 31
+TOP 45 158.62 125.355 270 N 57 0 32
+TOP 46 159.02 125.355 270 N 30 7 33
+TOP 47 159.42 125.355 270 N 58 0 34
+TOP 48 159.82 125.355 270 N 59 0 35
+TOP 49 160.22 125.355 270 N 60 0 36
+TOP 50 160.62 125.355 270 N 61 0 37
+TOP 51 161.02 125.355 270 N 62 0 38
+TOP 52 161.42 125.355 270 N 63 0 39
+TOP 53 161.82 125.355 270 N 64 0 40
+TOP 54 162.22 125.355 270 N 65 0 41
+TOP 55 162.62 125.355 270 N 30 8 42
+TOP 56 160.02 121.92 270 N 2 15 57
+#
+# CMP 3
+CMP 7 127.635 101.6 180 N U2 SOT_RG1_DIO ;0=1;ID=13444
+PRP COPYRIGHT 'Copyright (C) 2025 Ultra Librarian. All rights reserved.'
+PRP MANUFACTURER_PART_NUMBER 'AP2112K-3.3TRG1'
+PRP MFR_NAME 'Diodes Inc'
+PRP VALUE 'AP2112K-3.3TRG1SOT_RG1_DIO'
+TOP 0 126.2825 100.65 0 N 10 4 1
+TOP 1 126.2825 101.6 0 N 2 16 2
+TOP 2 126.2825 102.55 0 N 10 5 3
+TOP 3 128.9875 102.55 0 N 0 27 4
+TOP 4 128.9875 100.65 0 N 30 9 5
+#
+# CMP 4
+CMP 8 127.635 104.775 180 N C1 CAPC3216X135 ;0=1;ID=13445
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '1206'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '10uF'
+PRP TYPE 'Capacitor'
+TOP 0 126.1596 104.775 0 N 10 6 1
+TOP 1 129.1104 104.775 0 N 2 17 2
+#
+# CMP 5
+CMP 8 132.08 101.6 270 N C2 CAPC3216X135 ;0=1;ID=13446
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '1206'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '10uF'
+PRP TYPE 'Capacitor'
+TOP 0 132.08 100.1246 270 N 30 10 1
+TOP 1 132.08 103.0754 270 N 2 18 2
+#
+# CMP 6
+CMP 9 153.035 130.81 270 N C3 CAPC2012X110 ;0=1;ID=13447
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 153.035 129.9346 270 N 30 11 1
+TOP 1 153.035 131.6854 270 N 2 19 2
+#
+# CMP 7
+CMP 9 155.575 130.81 270 N C4 CAPC2012X110 ;0=1;ID=13448
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 155.575 129.9346 270 N 30 12 1
+TOP 1 155.575 131.6854 270 N 2 20 2
+#
+# CMP 8
+CMP 9 151.13 123.825 270 N C5 CAPC2012X110 ;0=1;ID=13449
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 151.13 122.9496 270 N 30 13 1
+TOP 1 151.13 124.7004 270 N 2 21 2
+#
+# CMP 9
+CMP 9 167.64 130.81 270 N C6 CAPC2012X110 ;0=1;ID=13450
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 167.64 129.9346 270 N 30 14 1
+TOP 1 167.64 131.6854 270 N 2 22 2
+#
+# CMP 10
+CMP 9 158.75 113.665 90 N C7 CAPC2012X110 ;0=1;ID=13451
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 158.75 114.5404 90 N 30 15 1
+TOP 1 158.75 112.7896 90 N 2 23 2
+#
+# CMP 11
+CMP 9 165.1 130.81 270 N C8 CAPC2012X110 ;0=1;ID=13452
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 165.1 129.9346 270 N 30 16 1
+TOP 1 165.1 131.6854 270 N 2 24 2
+#
+# CMP 12
+CMP 9 167.005 115.57 180 N C9 CAPC2012X110 ;0=1;ID=13453
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 166.1296 115.57 0 N 30 17 1
+TOP 1 167.8804 115.57 0 N 2 25 2
+#
+# CMP 13
+CMP 9 167.005 121.3104 180 N C10 CAPC2012X110 ;0=1;ID=13454
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 166.1296 121.3104 0 N 31 3 1
+TOP 1 167.8804 121.3104 0 N 2 26 2
+#
+# CMP 14
+CMP 9 153.6446 123.825 270 N C11 CAPC2012X110 ;0=1;ID=13455
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 153.6446 122.9496 270 N 31 4 1
+TOP 1 153.6446 124.7004 270 N 2 27 2
+#
+# CMP 15
+CMP 9 167.005 125.095 180 N C12 CAPC2012X110 ;0=1;ID=13456
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '1uF'
+PRP TYPE 'Capacitor'
+TOP 0 166.1296 125.095 0 N 31 5 1
+TOP 1 167.8804 125.095 0 N 2 28 2
+#
+# CMP 16
+CMP 9 167.005 127.635 180 N C13 CAPC2012X110 ;0=1;ID=13457
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '1uF'
+PRP TYPE 'Capacitor'
+TOP 0 166.1296 127.635 0 N 30 18 1
+TOP 1 167.8804 127.635 0 N 2 29 2
+#
+# CMP 17
+CMP 10 173.355 124.46 180 N R2 RESC2012X65 ;0=1;ID=13458
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '27'
+PRP TYPE 'Resistor'
+TOP 0 172.4355 124.46 0 N 35 1 1
+TOP 1 174.2745 124.46 0 N 20 1 2
+#
+# CMP 18
+CMP 10 173.355 121.92 0 N R3 RESC2012X65 ;0=1;ID=13459
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '27'
+PRP TYPE 'Resistor'
+TOP 0 174.2745 121.92 180 N 21 1 1
+TOP 1 172.4355 121.92 180 N 36 1 2
+#
+# CMP 19
+CMP 11 176.53 114.935 0 N U3 SOIC127P790X216-8N ;0=1;ID=13460
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O, QPI, DTR 133 MHz 8-SOIC                                              '
+PRP MF 'Winbond Electronics'
+PRP MP 'W25Q128JVSIM TR'
+PRP PACKAGE 'SOIC-8 Winbond Electronics'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond/view-part/?ref=snap'
+PRP VALUE 'W25Q128JVSIM_TR'
+TOP 0 180.135 116.84 180 N 66 0 1
+TOP 1 180.135 115.57 180 N 41 1 2
+TOP 2 180.135 114.3 180 N 40 1 3
+TOP 3 180.135 113.03 180 N 2 30 4
+TOP 4 172.925 113.03 180 N 39 1 5
+TOP 5 172.925 114.3 180 N 38 1 6
+TOP 6 172.925 115.57 180 N 37 1 7
+TOP 7 172.925 116.84 180 N 30 19 8
+#
+# CMP 20
+CMP 9 173.355 119.38 0 N C16 CAPC2012X110 ;0=1;ID=13462
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 174.2304 119.38 180 N 30 20 1
+TOP 1 172.4796 119.38 180 N 2 31 2
+#
+# CMP 21
+CMP 10 177.165 119.38 0 N R4 RESC2012X65 ;0=1;ID=13463
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 178.0845 119.38 180 N 66 1 1
+TOP 1 176.2455 119.38 180 N 30 21 2
+#
+# CMP 22
+CMP 10 180.975 119.38 0 N R6 RESC2012X65 ;0=1;ID=13464
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '1K'
+PRP TYPE 'Resistor'
+TOP 0 181.8945 119.38 180 N 67 0 1
+TOP 1 180.0555 119.38 180 N 66 2 2
+#
+# CMP 23
+CMP 12 21 94.2 0 N S1 SW_5114 ;0=1;ID=13466
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 24.8 88.3 0 N 68 0 P$1
+TOP 1 12.25 90.4 0 N 53 1 P$2
+#
+# CMP 24
+CMP 13 28.4988 86.7156 270 N D1 SOD3715X135N ;0=1,1=1.35;ID=13468
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 28.4988 85.0356 270 N 24 1 C
+TOP 1 28.4988 88.3956 270 N 68 1 A
+#
+# CMP 25
+CMP 12 40.05 94.2 0 N S2 SW_5114 ;0=1;ID=13469
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 43.85 88.3 0 N 69 0 P$1
+TOP 1 31.3 90.4 0 N 52 1 P$2
+#
+# CMP 26
+CMP 13 47.5488 86.7156 270 N D2 SOD3715X135N ;0=1,1=1.35;ID=13471
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 47.5488 85.0356 270 N 24 2 C
+TOP 1 47.5488 88.3956 270 N 69 1 A
+#
+# CMP 27
+CMP 12 59.1 94.2 0 N S3 SW_5114 ;0=1;ID=13472
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 62.9 88.3 0 N 70 0 P$1
+TOP 1 50.35 90.4 0 N 51 1 P$2
+#
+# CMP 28
+CMP 13 66.5988 86.7156 270 N D3 SOD3715X135N ;0=1,1=1.35;ID=13474
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 66.5988 85.0356 270 N 24 3 C
+TOP 1 66.5988 88.3956 270 N 70 1 A
+#
+# CMP 29
+CMP 12 78.15 94.2 0 N S4 SW_5114 ;0=1;ID=13475
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 81.95 88.3 0 N 71 0 P$1
+TOP 1 69.4 90.4 0 N 50 1 P$2
+#
+# CMP 30
+CMP 13 85.6488 86.7156 270 N D4 SOD3715X135N ;0=1,1=1.35;ID=13477
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 85.6488 85.0356 270 N 24 4 C
+TOP 1 85.6488 88.3956 270 N 71 1 A
+#
+# CMP 31
+CMP 12 97.2 94.2 0 N S5 SW_5114 ;0=1;ID=13478
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 101 88.3 0 N 72 0 P$1
+TOP 1 88.45 90.4 0 N 49 1 P$2
+#
+# CMP 32
+CMP 13 104.6988 86.7156 270 N D5 SOD3715X135N ;0=1,1=1.35;ID=13480
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 104.6988 85.0356 270 N 24 5 C
+TOP 1 104.6988 88.3956 270 N 72 1 A
+#
+# CMP 33
+CMP 12 116.25 94.2 0 N S6 SW_5114 ;0=1;ID=13481
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 120.05 88.3 0 N 73 0 P$1
+TOP 1 107.5 90.4 0 N 48 1 P$2
+#
+# CMP 34
+CMP 13 123.7488 86.7156 270 N D6 SOD3715X135N ;0=1,1=1.35;ID=13483
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 123.7488 85.0356 270 N 24 6 C
+TOP 1 123.7488 88.3956 270 N 73 1 A
+#
+# CMP 35
+CMP 12 203.75 94.2 0 N S7 SW_5114 ;0=1;ID=13484
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 207.55 88.3 0 N 74 0 P$1
+TOP 1 195 90.4 0 N 47 1 P$2
+#
+# CMP 36
+CMP 13 211.2518 86.7156 270 N D7 SOD3715X135N ;0=1,1=1.35;ID=13486
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 211.2518 85.0356 270 N 24 7 C
+TOP 1 211.2518 88.3956 270 N 74 1 A
+#
+# CMP 37
+CMP 12 222.8 94.2 0 N S8 SW_5114 ;0=1;ID=13487
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 226.6 88.3 0 N 75 0 P$1
+TOP 1 214.05 90.4 0 N 46 1 P$2
+#
+# CMP 38
+CMP 13 230.3018 86.7156 270 N D8 SOD3715X135N ;0=1,1=1.35;ID=13489
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 230.3018 85.0356 270 N 24 8 C
+TOP 1 230.3018 88.3956 270 N 75 1 A
+#
+# CMP 39
+CMP 12 241.85 94.2 0 N S9 SW_5114 ;0=1;ID=13490
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 245.65 88.3 0 N 76 0 P$1
+TOP 1 233.1 90.4 0 N 45 1 P$2
+#
+# CMP 40
+CMP 13 249.3518 86.7156 270 N D9 SOD3715X135N ;0=1,1=1.35;ID=13492
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 249.3518 85.0356 270 N 24 9 C
+TOP 1 249.3518 88.3956 270 N 76 1 A
+#
+# CMP 41
+CMP 12 260.9 94.2 0 N S10 SW_5114 ;0=1;ID=13493
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 264.7 88.3 0 N 77 0 P$1
+TOP 1 252.15 90.4 0 N 44 1 P$2
+#
+# CMP 42
+CMP 13 268.4018 86.7156 270 N D10 SOD3715X135N ;0=1,1=1.35;ID=13495
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 268.4018 85.0356 270 N 24 10 C
+TOP 1 268.4018 88.3956 270 N 77 1 A
+#
+# CMP 43
+CMP 12 279.95 94.2 0 N S11 SW_5114 ;0=1;ID=13496
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 283.75 88.3 0 N 78 0 P$1
+TOP 1 271.2 90.4 0 N 43 1 P$2
+#
+# CMP 44
+CMP 13 287.4518 86.7156 270 N D11 SOD3715X135N ;0=1,1=1.35;ID=13498
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 287.4518 85.0356 270 N 24 11 C
+TOP 1 287.4518 88.3956 270 N 78 1 A
+#
+# CMP 45
+CMP 12 299 94.2 0 N S12 SW_5114 ;0=1;ID=13499
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 302.8 88.3 0 N 79 0 P$1
+TOP 1 290.25 90.4 0 N 42 1 P$2
+#
+# CMP 46
+CMP 13 306.5018 86.7156 270 N D12 SOD3715X135N ;0=1,1=1.35;ID=13501
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 306.5018 85.0356 270 N 24 12 C
+TOP 1 306.5018 88.3956 270 N 79 1 A
+#
+# CMP 47
+CMP 12 21 75.15 0 N S13 SW_5114 ;0=1;ID=13502
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 24.8 69.25 0 N 80 0 P$1
+TOP 1 12.25 71.35 0 N 53 2 P$2
+#
+# CMP 48
+CMP 13 28.4988 67.6656 270 N D13 SOD3715X135N ;0=1,1=1.35;ID=13504
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 28.4988 65.9856 270 N 25 1 C
+TOP 1 28.4988 69.3456 270 N 80 1 A
+#
+# CMP 49
+CMP 12 40.05 75.15 0 N S14 SW_5114 ;0=1;ID=13505
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 43.85 69.25 0 N 81 0 P$1
+TOP 1 31.3 71.35 0 N 52 2 P$2
+#
+# CMP 50
+CMP 13 47.5488 67.6656 270 N D14 SOD3715X135N ;0=1,1=1.35;ID=13507
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 47.5488 65.9856 270 N 25 2 C
+TOP 1 47.5488 69.3456 270 N 81 1 A
+#
+# CMP 51
+CMP 12 59.1 75.15 0 N S15 SW_5114 ;0=1;ID=13508
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 62.9 69.25 0 N 82 0 P$1
+TOP 1 50.35 71.35 0 N 51 2 P$2
+#
+# CMP 52
+CMP 13 66.5988 67.6656 270 N D15 SOD3715X135N ;0=1,1=1.35;ID=13510
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 66.5988 65.9856 270 N 25 3 C
+TOP 1 66.5988 69.3456 270 N 82 1 A
+#
+# CMP 53
+CMP 12 78.15 75.15 0 N S16 SW_5114 ;0=1;ID=13511
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 81.95 69.25 0 N 83 0 P$1
+TOP 1 69.4 71.35 0 N 50 2 P$2
+#
+# CMP 54
+CMP 13 85.6488 67.6656 270 N D16 SOD3715X135N ;0=1,1=1.35;ID=13513
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 85.6488 65.9856 270 N 25 4 C
+TOP 1 85.6488 69.3456 270 N 83 1 A
+#
+# CMP 55
+CMP 12 97.2 75.15 0 N S17 SW_5114 ;0=1;ID=13514
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 101 69.25 0 N 84 0 P$1
+TOP 1 88.45 71.35 0 N 49 2 P$2
+#
+# CMP 56
+CMP 13 104.6988 67.6656 270 N D17 SOD3715X135N ;0=1,1=1.35;ID=13516
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 104.6988 65.9856 270 N 25 5 C
+TOP 1 104.6988 69.3456 270 N 84 1 A
+#
+# CMP 57
+CMP 12 116.25 75.15 0 N S18 SW_5114 ;0=1;ID=13517
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 120.05 69.25 0 N 85 0 P$1
+TOP 1 107.5 71.35 0 N 48 2 P$2
+#
+# CMP 58
+CMP 13 123.7488 67.6656 270 N D18 SOD3715X135N ;0=1,1=1.35;ID=13519
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 123.7488 65.9856 270 N 25 6 C
+TOP 1 123.7488 69.3456 270 N 85 1 A
+#
+# CMP 59
+CMP 12 203.75 75.15 0 N S19 SW_5114 ;0=1;ID=13520
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 207.55 69.25 0 N 86 0 P$1
+TOP 1 195 71.35 0 N 47 2 P$2
+#
+# CMP 60
+CMP 13 211.2518 67.6656 270 N D19 SOD3715X135N ;0=1,1=1.35;ID=13522
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 211.2518 65.9856 270 N 25 7 C
+TOP 1 211.2518 69.3456 270 N 86 1 A
+#
+# CMP 61
+CMP 12 222.8 75.15 0 N S20 SW_5114 ;0=1;ID=13523
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 226.6 69.25 0 N 87 0 P$1
+TOP 1 214.05 71.35 0 N 46 2 P$2
+#
+# CMP 62
+CMP 13 230.3018 67.6656 270 N D20 SOD3715X135N ;0=1,1=1.35;ID=13525
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 230.3018 65.9856 270 N 25 8 C
+TOP 1 230.3018 69.3456 270 N 87 1 A
+#
+# CMP 63
+CMP 12 241.85 75.15 0 N S21 SW_5114 ;0=1;ID=13526
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 245.65 69.25 0 N 88 0 P$1
+TOP 1 233.1 71.35 0 N 45 2 P$2
+#
+# CMP 64
+CMP 13 249.3518 67.6656 270 N D21 SOD3715X135N ;0=1,1=1.35;ID=13528
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 249.3518 65.9856 270 N 25 9 C
+TOP 1 249.3518 69.3456 270 N 88 1 A
+#
+# CMP 65
+CMP 12 260.9 75.15 0 N S22 SW_5114 ;0=1;ID=13529
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 264.7 69.25 0 N 89 0 P$1
+TOP 1 252.15 71.35 0 N 44 2 P$2
+#
+# CMP 66
+CMP 13 268.4018 67.6656 270 N D22 SOD3715X135N ;0=1,1=1.35;ID=13531
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 268.4018 65.9856 270 N 25 10 C
+TOP 1 268.4018 69.3456 270 N 89 1 A
+#
+# CMP 67
+CMP 12 279.95 75.15 0 N S23 SW_5114 ;0=1;ID=13532
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 283.75 69.25 0 N 90 0 P$1
+TOP 1 271.2 71.35 0 N 43 2 P$2
+#
+# CMP 68
+CMP 13 287.4518 67.6656 270 N D23 SOD3715X135N ;0=1,1=1.35;ID=13534
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 287.4518 65.9856 270 N 25 11 C
+TOP 1 287.4518 69.3456 270 N 90 1 A
+#
+# CMP 69
+CMP 12 299 75.15 0 N S24 SW_5114 ;0=1;ID=13535
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 302.8 69.25 0 N 91 0 P$1
+TOP 1 290.25 71.35 0 N 42 2 P$2
+#
+# CMP 70
+CMP 13 306.5018 67.6656 270 N D24 SOD3715X135N ;0=1,1=1.35;ID=13537
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 306.5018 65.9856 270 N 25 12 C
+TOP 1 306.5018 69.3456 270 N 91 1 A
+#
+# CMP 71
+CMP 12 21 56.1 0 N S25 SW_5114 ;0=1;ID=13538
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 24.8 50.2 0 N 92 0 P$1
+TOP 1 12.25 52.3 0 N 53 3 P$2
+#
+# CMP 72
+CMP 13 28.4988 48.6156 270 N D25 SOD3715X135N ;0=1,1=1.35;ID=13540
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 28.4988 46.9356 270 N 26 1 C
+TOP 1 28.4988 50.2956 270 N 92 1 A
+#
+# CMP 73
+CMP 12 40.05 56.1 0 N S26 SW_5114 ;0=1;ID=13541
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 43.85 50.2 0 N 93 0 P$1
+TOP 1 31.3 52.3 0 N 52 3 P$2
+#
+# CMP 74
+CMP 13 47.5488 48.6156 270 N D26 SOD3715X135N ;0=1,1=1.35;ID=13543
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 47.5488 46.9356 270 N 26 2 C
+TOP 1 47.5488 50.2956 270 N 93 1 A
+#
+# CMP 75
+CMP 12 59.1 56.1 0 N S27 SW_5114 ;0=1;ID=13544
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 62.9 50.2 0 N 94 0 P$1
+TOP 1 50.35 52.3 0 N 51 3 P$2
+#
+# CMP 76
+CMP 13 66.5988 48.6156 270 N D27 SOD3715X135N ;0=1,1=1.35;ID=13546
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 66.5988 46.9356 270 N 26 3 C
+TOP 1 66.5988 50.2956 270 N 94 1 A
+#
+# CMP 77
+CMP 12 78.15 56.1 0 N S28 SW_5114 ;0=1;ID=13547
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 81.95 50.2 0 N 95 0 P$1
+TOP 1 69.4 52.3 0 N 50 3 P$2
+#
+# CMP 78
+CMP 13 85.6488 48.6156 270 N D28 SOD3715X135N ;0=1,1=1.35;ID=13549
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 85.6488 46.9356 270 N 26 4 C
+TOP 1 85.6488 50.2956 270 N 95 1 A
+#
+# CMP 79
+CMP 12 97.2 56.1 0 N S29 SW_5114 ;0=1;ID=13550
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 101 50.2 0 N 96 0 P$1
+TOP 1 88.45 52.3 0 N 49 3 P$2
+#
+# CMP 80
+CMP 13 104.6988 48.6156 270 N D29 SOD3715X135N ;0=1,1=1.35;ID=13552
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 104.6988 46.9356 270 N 26 5 C
+TOP 1 104.6988 50.2956 270 N 96 1 A
+#
+# CMP 81
+CMP 12 116.25 56.1 0 N S30 SW_5114 ;0=1;ID=13553
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 120.05 50.2 0 N 97 0 P$1
+TOP 1 107.5 52.3 0 N 48 3 P$2
+#
+# CMP 82
+CMP 13 123.7488 48.6156 270 N D30 SOD3715X135N ;0=1,1=1.35;ID=13555
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 123.7488 46.9356 270 N 26 6 C
+TOP 1 123.7488 50.2956 270 N 97 1 A
+#
+# CMP 83
+CMP 12 203.75 56.1 0 N S31 SW_5114 ;0=1;ID=13556
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 207.55 50.2 0 N 98 0 P$1
+TOP 1 195 52.3 0 N 47 3 P$2
+#
+# CMP 84
+CMP 13 211.2518 48.6156 270 N D31 SOD3715X135N ;0=1,1=1.35;ID=13558
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 211.2518 46.9356 270 N 26 7 C
+TOP 1 211.2518 50.2956 270 N 98 1 A
+#
+# CMP 85
+CMP 12 222.8 56.1 0 N S32 SW_5114 ;0=1;ID=13559
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 226.6 50.2 0 N 99 0 P$1
+TOP 1 214.05 52.3 0 N 46 3 P$2
+#
+# CMP 86
+CMP 13 230.3018 48.6156 270 N D32 SOD3715X135N ;0=1,1=1.35;ID=13561
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 230.3018 46.9356 270 N 26 8 C
+TOP 1 230.3018 50.2956 270 N 99 1 A
+#
+# CMP 87
+CMP 12 241.85 56.1 0 N S33 SW_5114 ;0=1;ID=13562
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 245.65 50.2 0 N 100 0 P$1
+TOP 1 233.1 52.3 0 N 45 3 P$2
+#
+# CMP 88
+CMP 13 249.3518 48.6156 270 N D33 SOD3715X135N ;0=1,1=1.35;ID=13564
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 249.3518 46.9356 270 N 26 9 C
+TOP 1 249.3518 50.2956 270 N 100 1 A
+#
+# CMP 89
+CMP 12 260.9 56.1 0 N S34 SW_5114 ;0=1;ID=13565
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 264.7 50.2 0 N 101 0 P$1
+TOP 1 252.15 52.3 0 N 44 3 P$2
+#
+# CMP 90
+CMP 13 268.4018 48.6156 270 N D34 SOD3715X135N ;0=1,1=1.35;ID=13567
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 268.4018 46.9356 270 N 26 10 C
+TOP 1 268.4018 50.2956 270 N 101 1 A
+#
+# CMP 91
+CMP 12 279.95 56.1 0 N S35 SW_5114 ;0=1;ID=13568
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 283.75 50.2 0 N 102 0 P$1
+TOP 1 271.2 52.3 0 N 43 3 P$2
+#
+# CMP 92
+CMP 13 287.4518 48.6156 270 N D35 SOD3715X135N ;0=1,1=1.35;ID=13570
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 287.4518 46.9356 270 N 26 11 C
+TOP 1 287.4518 50.2956 270 N 102 1 A
+#
+# CMP 93
+CMP 12 299 56.1 0 N S36 SW_5114 ;0=1;ID=13571
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 302.8 50.2 0 N 103 0 P$1
+TOP 1 290.25 52.3 0 N 42 3 P$2
+#
+# CMP 94
+CMP 13 306.5018 48.6156 270 N D36 SOD3715X135N ;0=1,1=1.35;ID=13573
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 306.5018 46.9356 270 N 26 12 C
+TOP 1 306.5018 50.2956 270 N 103 1 A
+#
+# CMP 95
+CMP 12 21 37.05 0 N S37 SW_5114 ;0=1;ID=13574
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 24.8 31.15 0 N 104 0 P$1
+TOP 1 12.25 33.25 0 N 53 4 P$2
+#
+# CMP 96
+CMP 13 28.4988 29.5656 270 N D37 SOD3715X135N ;0=1,1=1.35;ID=13576
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 28.4988 27.8856 270 N 27 1 C
+TOP 1 28.4988 31.2456 270 N 104 1 A
+#
+# CMP 97
+CMP 12 40.05 37.05 0 N S38 SW_5114 ;0=1;ID=13577
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 43.85 31.15 0 N 105 0 P$1
+TOP 1 31.3 33.25 0 N 52 4 P$2
+#
+# CMP 98
+CMP 13 47.5488 29.5656 270 N D38 SOD3715X135N ;0=1,1=1.35;ID=13579
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 47.5488 27.8856 270 N 27 2 C
+TOP 1 47.5488 31.2456 270 N 105 1 A
+#
+# CMP 99
+CMP 12 59.1 37.05 0 N S39 SW_5114 ;0=1;ID=13580
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 62.9 31.15 0 N 106 0 P$1
+TOP 1 50.35 33.25 0 N 51 4 P$2
+#
+# CMP 100
+CMP 13 66.5988 29.5656 270 N D39 SOD3715X135N ;0=1,1=1.35;ID=13582
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 66.5988 27.8856 270 N 27 3 C
+TOP 1 66.5988 31.2456 270 N 106 1 A
+#
+# CMP 101
+CMP 12 78.15 37.05 0 N S40 SW_5114 ;0=1;ID=13583
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 81.95 31.15 0 N 107 0 P$1
+TOP 1 69.4 33.25 0 N 50 4 P$2
+#
+# CMP 102
+CMP 13 85.6488 29.5656 270 N D40 SOD3715X135N ;0=1,1=1.35;ID=13585
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 85.6488 27.8856 270 N 27 4 C
+TOP 1 85.6488 31.2456 270 N 107 1 A
+#
+# CMP 103
+CMP 12 97.2 37.05 0 N S41 SW_5114 ;0=1;ID=13586
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 101 31.15 0 N 108 0 P$1
+TOP 1 88.45 33.25 0 N 49 4 P$2
+#
+# CMP 104
+CMP 13 104.6988 29.5656 270 N D41 SOD3715X135N ;0=1,1=1.35;ID=13588
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 104.6988 27.8856 270 N 27 5 C
+TOP 1 104.6988 31.2456 270 N 108 1 A
+#
+# CMP 105
+CMP 12 116.25 37.05 0 N S42 SW_5114 ;0=1;ID=13589
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 120.05 31.15 0 N 109 0 P$1
+TOP 1 107.5 33.25 0 N 48 4 P$2
+#
+# CMP 106
+CMP 13 123.7488 29.5656 270 N D42 SOD3715X135N ;0=1,1=1.35;ID=13591
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 123.7488 27.8856 270 N 27 6 C
+TOP 1 123.7488 31.2456 270 N 109 1 A
+#
+# CMP 107
+CMP 12 203.75 37.05 0 N S43 SW_5114 ;0=1;ID=13592
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 207.55 31.15 0 N 110 0 P$1
+TOP 1 195 33.25 0 N 47 4 P$2
+#
+# CMP 108
+CMP 13 211.2518 29.5656 270 N D43 SOD3715X135N ;0=1,1=1.35;ID=13594
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 211.2518 27.8856 270 N 27 7 C
+TOP 1 211.2518 31.2456 270 N 110 1 A
+#
+# CMP 109
+CMP 12 222.8 37.05 0 N S44 SW_5114 ;0=1;ID=13595
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 226.6 31.15 0 N 111 0 P$1
+TOP 1 214.05 33.25 0 N 46 4 P$2
+#
+# CMP 110
+CMP 13 230.3018 29.5656 270 N D44 SOD3715X135N ;0=1,1=1.35;ID=13597
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 230.3018 27.8856 270 N 27 8 C
+TOP 1 230.3018 31.2456 270 N 111 1 A
+#
+# CMP 111
+CMP 12 241.85 37.05 0 N S45 SW_5114 ;0=1;ID=13598
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 245.65 31.15 0 N 112 0 P$1
+TOP 1 233.1 33.25 0 N 45 4 P$2
+#
+# CMP 112
+CMP 13 249.3518 29.5656 270 N D45 SOD3715X135N ;0=1,1=1.35;ID=13600
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 249.3518 27.8856 270 N 27 9 C
+TOP 1 249.3518 31.2456 270 N 112 1 A
+#
+# CMP 113
+CMP 12 260.9 37.05 0 N S46 SW_5114 ;0=1;ID=13601
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 264.7 31.15 0 N 113 0 P$1
+TOP 1 252.15 33.25 0 N 44 4 P$2
+#
+# CMP 114
+CMP 13 268.4018 29.5656 270 N D46 SOD3715X135N ;0=1,1=1.35;ID=13603
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 268.4018 27.8856 270 N 27 10 C
+TOP 1 268.4018 31.2456 270 N 113 1 A
+#
+# CMP 115
+CMP 12 279.95 37.05 0 N S47 SW_5114 ;0=1;ID=13604
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 283.75 31.15 0 N 114 0 P$1
+TOP 1 271.2 33.25 0 N 43 4 P$2
+#
+# CMP 116
+CMP 13 287.4518 29.5656 270 N D47 SOD3715X135N ;0=1,1=1.35;ID=13606
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 287.4518 27.8856 270 N 27 11 C
+TOP 1 287.4518 31.2456 270 N 114 1 A
+#
+# CMP 117
+CMP 12 299 37.05 0 N S48 SW_5114 ;0=1;ID=13607
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 302.8 31.15 0 N 115 0 P$1
+TOP 1 290.25 33.25 0 N 42 4 P$2
+#
+# CMP 118
+CMP 13 306.5018 29.5656 270 N D48 SOD3715X135N ;0=1,1=1.35;ID=13609
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 306.5018 27.8856 270 N 27 12 C
+TOP 1 306.5018 31.2456 270 N 115 1 A
+#
+# CMP 119
+CMP 12 59.1 18 0 N S49 SW_5114 ;0=1;ID=13610
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 62.9 12.1 0 N 116 0 P$1
+TOP 1 50.35 14.2 0 N 50 5 P$2
+#
+# CMP 120
+CMP 13 66.5988 10.5156 270 N D49 SOD3715X135N ;0=1,1=1.35;ID=13612
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 66.5988 8.8356 270 N 33 1 C
+TOP 1 66.5988 12.1956 270 N 116 1 A
+#
+# CMP 121
+CMP 12 78.15 18 0 N S50 SW_5114 ;0=1;ID=13613
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 81.95 12.1 0 N 117 0 P$1
+TOP 1 69.4 14.2 0 N 49 5 P$2
+#
+# CMP 122
+CMP 13 85.6488 10.5156 270 N D50 SOD3715X135N ;0=1,1=1.35;ID=13615
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 85.6488 8.8356 270 N 33 2 C
+TOP 1 85.6488 12.1956 270 N 117 1 A
+#
+# CMP 123
+CMP 12 106.725 18 0 N S51 SW_5114 ;0=1;ID=13616
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 110.525 12.1 0 N 118 0 P$1
+TOP 1 97.975 14.2 0 N 48 5 P$2
+#
+# CMP 124
+CMP 13 114.2238 10.5156 270 N D51 SOD3715X135N ;0=1,1=1.35;ID=13618
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 114.2238 8.8356 270 N 33 3 C
+TOP 1 114.2238 12.1956 270 N 118 1 A
+#
+# CMP 125
+CMP 12 213.275 18 0 N S52 SW_5114 ;0=1;ID=13619
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 217.075 12.1 0 N 119 0 P$1
+TOP 1 204.525 14.2 0 N 47 5 P$2
+#
+# CMP 126
+CMP 13 220.7514 10.4912 270 N D52 SOD3715X135N ;0=1,1=1.35;ID=13621
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 220.7514 8.8112 270 N 33 4 C
+TOP 1 220.7514 12.1712 270 N 119 1 A
+#
+# CMP 127
+CMP 12 241.85 18 0 N S53 SW_5114 ;0=1;ID=13622
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 245.65 12.1 0 N 120 0 P$1
+TOP 1 233.1 14.2 0 N 46 5 P$2
+#
+# CMP 128
+CMP 13 249.3518 10.5156 270 N D53 SOD3715X135N ;0=1,1=1.35;ID=13624
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 249.3518 8.8356 270 N 33 5 C
+TOP 1 249.3518 12.1956 270 N 120 1 A
+#
+# CMP 129
+CMP 12 260.9 18 0 N S54 SW_5114 ;0=1;ID=13625
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      Pushbutton Switch SPST-NO Keyswitch Through Hole                                              '
+PRP MF 'Adafruit Industries LLC'
+PRP MP '5114'
+PRP PACKAGE 'None'
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/5114/Adafruit+Industries/view-part/?ref=snap'
+TOP 0 264.7 12.1 0 N 121 0 P$1
+TOP 1 252.15 14.2 0 N 45 5 P$2
+#
+# CMP 130
+CMP 13 268.4018 10.5156 270 N D54 SOD3715X135N ;0=1,1=1.35;ID=13627
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 268.4018 8.8356 270 N 33 6 C
+TOP 1 268.4018 12.1956 270 N 121 1 A
+#
+# CMP 131
+CMP 14 156.29 95.267 180 N J3 CONN16_1-1775333-6_TEC ;0=1;ID=13628
+PRP COPYRIGHT 'Copyright (C) 2025 Ultra Librarian. All rights reserved.'
+PRP DATASHEET 'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-57590&DocType=Specification+Or+Standard&DocLang=English&PartCntxt=5-1775333-4&DocFormat=tif'
+PRP DESCRIPTION 'ZIF FPC 0.5, 2H, 16P'
+PRP MANUFACTURER_NAME 'TE Connectivity'
+PRP MANUFACTURER_PART_NUMBER '1-1775333-6'
+PRP TYPE 'Receptacle'
+PRP VALUE '1-1775333-6CONN16_1-1775333-6_TEC'
+TOP 0 156.29 95.267 0 N 122 0 16
+TOP 1 156.79 95.267 0 N 123 0 15
+TOP 2 157.29 95.267 0 N 124 0 14
+TOP 3 157.79 95.267 0 N 125 0 13
+TOP 4 158.29 95.267 0 N 30 22 12
+TOP 5 158.79 95.267 0 N 2 32 11
+TOP 6 159.29 95.267 0 N 30 23 10
+TOP 7 159.79 95.267 0 N 58 1 9
+TOP 8 160.29 95.267 0 N 60 1 8
+TOP 9 160.79 95.267 0 N 59 1 7
+TOP 10 161.29 95.267 0 N 62 1 6
+TOP 11 161.79 95.267 0 N 63 1 5
+TOP 12 162.29 95.267 0 N 126 0 4
+TOP 13 162.79 95.267 0 N 127 0 3
+TOP 14 163.29 95.267 0 N 128 0 2
+TOP 15 163.79 95.267 0 N 2 33 1
+TOP 16 154.39 92.014 0 N 2 34 17
+TOP 17 165.69 92.014 0 N 2 35 18
+#
+# CMP 132
+CMP 8 165.1 98.805 180 N C71 CAPC3216X135 ;0=1;ID=13636
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '1206'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '10uF'
+PRP TYPE 'Capacitor'
+TOP 0 163.6246 98.805 0 N 128 1 1
+TOP 1 166.5754 98.805 0 N 2 36 2
+#
+# CMP 133
+CMP 8 165.1 101.98 180 N C72 CAPC3216X135 ;0=1;ID=13637
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '1206'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '10uF'
+PRP TYPE 'Capacitor'
+TOP 0 163.6246 101.98 0 N 127 1 1
+TOP 1 166.5754 101.98 0 N 2 37 2
+#
+# CMP 134
+CMP 10 165.1 105.155 90 N R7 RESC2012X65 ;0=1;ID=13638
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '680K'
+PRP TYPE 'Resistor'
+TOP 0 165.1 106.0745 90 N 2 38 1
+TOP 1 165.1 104.2355 90 N 126 1 2
+#
+# CMP 135
+CMP 10 161.925 105.79 0 N R8 RESC2012X65 ;0=1;ID=13639
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '5.1K'
+PRP TYPE 'Resistor'
+TOP 0 162.8445 105.79 180 N 2 39 1
+TOP 1 161.0055 105.79 180 N 60 2 2
+#
+# CMP 136
+CMP 9 155.575 101.345 180 N C73 CAPC2012X110 ;0=1;ID=13640
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '1uF'
+PRP TYPE 'Capacitor'
+TOP 0 154.6996 101.345 0 N 124 1 1
+TOP 1 156.4504 101.345 0 N 125 1 2
+#
+# CMP 137
+CMP 9 155.575 98.805 180 N C74 CAPC2012X110 ;0=1;ID=13641
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '1uF'
+PRP TYPE 'Capacitor'
+TOP 0 154.6996 98.805 0 N 122 1 1
+TOP 1 156.4504 98.805 0 N 123 1 2
+#
+# CMP 138
+CMP 15 147.955 130.787 270 N RESET KMR2 ;0=1;ID=13642
+PRP CATEGORY 'Switches'
+PRP DATASHEET 'https://www.ckswitches.com/media/1479/kmr2.pdf'
+PRP DESCRIPTION 'Tactile Switch SPST-NO Top Actuated Surface Mount'
+PRP MANUFACTURER 'C&K'
+PRP MPN 'KMR211G LFS'
+PRP OPERATING_TEMPERATURE '-40°C ~ 85°C'
+PRP PACKAGE_SIZE 'NA'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP PART_STATUS 'Active'
+PRP ROHS 'Compliant'
+PRP SERIES 'KMR2'
+PRP SUBCATEGORY 'Tactile Switches'
+PRP TYPE 'SPST-NO'
+PRP VALUE 'SPST-NO_SWITCH_KMR2'
+TOP 0 148.755 132.787 270 N 32 1 1
+TOP 1 147.155 132.787 270 N 2 40 2
+TOP 2 147.155 128.787 270 N 2 41 3
+TOP 3 148.755 128.787 270 N 32 2 4
+#
+# CMP 139
+CMP 15 172.085 130.8076 270 N BOOT KMR2 ;0=1;ID=13643
+PRP CATEGORY 'Switches'
+PRP DATASHEET 'https://www.ckswitches.com/media/1479/kmr2.pdf'
+PRP DESCRIPTION 'Tactile Switch SPST-NO Top Actuated Surface Mount'
+PRP MANUFACTURER 'C&K'
+PRP MPN 'KMR211G LFS'
+PRP OPERATING_TEMPERATURE '-40°C ~ 85°C'
+PRP PACKAGE_SIZE 'NA'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP PART_STATUS 'Active'
+PRP ROHS 'Compliant'
+PRP SERIES 'KMR2'
+PRP SUBCATEGORY 'Tactile Switches'
+PRP TYPE 'SPST-NO'
+PRP VALUE 'SPST-NO_SWITCH_KMR2'
+TOP 0 172.885 132.8076 270 N 67 1 1
+TOP 1 171.285 132.8076 270 N 2 42 2
+TOP 2 171.285 128.8076 270 N 2 43 3
+TOP 3 172.885 128.8076 270 N 67 2 4
+#
+# CMP 140
+CMP 10 177.165 127 0 N R9 RESC2012X65 ;0=1;ID=13644
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '2.2K'
+PRP TYPE 'Resistor'
+TOP 0 178.0845 127 180 N 18 1 1
+TOP 1 176.2455 127 180 N 9 1 2
+#
+# CMP 141
+CMP 10 142.875 120.015 90 N R10 RESC2012X65 ;0=1;ID=13645
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '2.2K'
+PRP TYPE 'Resistor'
+TOP 0 142.875 120.9345 90 N 129 0 1
+TOP 1 142.875 119.0955 90 N 11 1 2
+#
+# CMP 142
+CMP 16 139.065 120.015 180 N U4 SOT95P280X145-5N ;0=1;ID=13647
+PRP VALUE 'SN74AHCT1G125DBVR'
+TOP 0 137.81 119.065 0 N 2 44 1
+TOP 1 137.81 120.015 0 N 19 1 2
+TOP 2 137.81 120.965 0 N 2 45 3
+TOP 3 140.32 120.965 0 N 129 1 4
+TOP 4 140.32 119.065 0 N 10 7 5
+#
+# CMP 143
+CMP 16 26.67 102.87 90 N U5 SOT95P280X145-5N ;0=1;ID=13648
+PRP VALUE 'SN74AHCT1G125DBVR'
+TOP 0 25.72 104.125 90 N 2 46 1
+TOP 1 26.67 104.125 90 N 34 1 2
+TOP 2 27.62 104.125 90 N 2 47 3
+TOP 3 27.62 101.615 90 N 130 0 4
+TOP 4 25.72 101.615 90 N 10 8 5
+#
+# CMP 144
+CMP 10 26.67 106.68 180 N R11 RESC2012X65 ;0=1;ID=13650
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 25.7505 106.68 0 N 2 48 1
+TOP 1 27.5895 106.68 0 N 34 2 2
+#
+# CMP 145
+CMP 17 160.04 65.39 0 N J4 AMPHENOL_F31L-1A7H1-11012 ;0=1;ID=13651
+PRP MANUFACTURER 'Amphenol ICC'
+PRP MAXIMUM_PACKAGE_HEIGHT '2.55mm'
+PRP PARTREV 'I'
+PRP STANDARD 'Manufacturer recommendations'
+PRP VALUE 'F31L-1A7H1-11012'
+TOP 0 160.29 69.45 180 N 0 28 6
+TOP 1 155.14 63.8 180 N 0 29 S2
+TOP 2 164.94 63.8 180 N 0 30 S1
+TOP 3 162.79 69.45 180 N 30 24 1
+TOP 4 162.29 69.45 180 N 2 49 2
+TOP 5 161.79 69.45 180 N 56 1 3
+TOP 6 161.29 69.45 180 N 57 1 4
+TOP 7 160.79 69.45 180 N 0 31 5
+TOP 8 159.79 69.45 180 N 0 32 7
+TOP 9 159.29 69.45 180 N 63 2 8
+TOP 10 158.79 69.45 180 N 65 1 9
+TOP 11 158.29 69.45 180 N 61 1 10
+TOP 12 157.79 69.45 180 N 64 1 11
+TOP 13 157.29 69.45 180 N 62 2 12
+#
+# CMP 146
+CMP 18 8 18 0 N U$1 PEC09-2XXXF-SXXXX ;0=2;ID=13652
+TOP 0 8 20.5 180 N 55 1 P$1
+TOP 1 8 18 180 N 2 50 P$2
+TOP 2 8 15.5 180 N 54 1 P$3
+TOP 3 14.25 20.5 180 N 131 0 P$4
+TOP 4 14.25 15.5 180 N 132 0 P$5
+#
+# CMP 147
+CMP 10 6.985 24.765 0 N R12 RESC2012X65 ;0=1;ID=13655
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 7.9045 24.765 180 N 55 2 1
+TOP 1 6.0655 24.765 180 N 30 25 2
+#
+# CMP 148
+CMP 10 6.985 10.795 0 N R13 RESC2012X65 ;0=1;ID=13656
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 7.9045 10.795 180 N 54 2 1
+TOP 1 6.0655 10.795 180 N 30 26 2
+#
+# CMP 149
+CMP 10 137.795 123.825 90 N R14 RESC2012X65 ;0=1;ID=13657
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 137.795 124.7445 90 N 57 2 1
+TOP 1 137.795 122.9055 90 N 30 27 2
+#
+# CMP 150
+CMP 10 140.335 123.825 90 N R15 RESC2012X65 ;0=1;ID=13658
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 140.335 124.7445 90 N 56 2 1
+TOP 1 140.335 122.9055 90 N 30 28 2
+#
+# CMP 151
+CMP 19 140.335 127 90 N JP1 SMT-JUMPER_2_NC_TRACE_NO-SILK ;0=1;ID=13659
+PRP VALUE 'JUMPER-SMT_2_NC_TRACE_NO-SILK'
+TOP 0 140.335 127.5207 90 N 22 1 1
+TOP 1 140.335 126.4793 90 N 56 3 2
+#
+# CMP 152
+CMP 19 137.795 127 90 N JP2 SMT-JUMPER_2_NC_TRACE_NO-SILK ;0=1;ID=13660
+PRP VALUE 'JUMPER-SMT_2_NC_TRACE_NO-SILK'
+TOP 0 137.795 127.5207 90 N 23 1 1
+TOP 1 137.795 126.4793 90 N 57 3 2
+#
+# CMP 153
+CMP 20 147.2438 120.015 270 N Y1 XTAL_ABM8-272-T3 ;0=1;ID=13661
+PRP CREATOR 'DIZAR'
+PRP MANUFACTURER 'ABRACON'
+PRP MAXIMUM_PACKAGE_HEIGHT '0.8mm'
+PRP PARTREV '07-29-20'
+PRP STANDARD 'Manufacturer Recommendations'
+PRP VALUE 'ABM8-272-T3'
+TOP 0 146.0938 119.14 270 N 2 51 2
+TOP 1 148.3938 119.14 270 N 28 1 1
+TOP 2 148.3938 120.89 270 N 2 52 4
+TOP 3 146.0938 120.89 270 N 133 0 3
+#
+# CMP 154
+CMP 9 151.13 120.015 270 N C14 CAPC2012X110 ;0=1;ID=13663
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '15pF'
+PRP TYPE 'Capacitor'
+TOP 0 151.13 119.1396 270 N 2 53 1
+TOP 1 151.13 120.8904 270 N 28 2 2
+#
+# CMP 155
+CMP 9 146.05 123.825 90 N C15 CAPC2012X110 ;0=1;ID=13664
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '15pF'
+PRP TYPE 'Capacitor'
+TOP 0 146.05 124.7004 90 N 2 54 1
+TOP 1 146.05 122.9496 90 N 133 1 2
+#
+# CMP 156
+CMP 10 148.5855 123.825 90 N R1 RESC2012X65 ;0=1;ID=13665
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '1K'
+PRP TYPE 'Resistor'
+TOP 0 148.5855 124.7445 90 N 133 2 1
+TOP 1 148.5855 122.9055 90 N 29 1 2
+#
+# CMP 157
+CMP 10 154.305 133.985 180 N R5 RESC2012X65 ;0=1;ID=13666
+PRP CATEGORY 'Resistors'
+PRP DESCRIPTION 'Chip Resistor 2.00 X 1.25 X 0.65 mm body 0805(2012-METRIC) Package'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP VALUE '10K'
+PRP TYPE 'Resistor'
+TOP 0 153.3855 133.985 0 N 32 3 1
+TOP 1 155.2245 133.985 0 N 30 29 2
+#
+# CMP 158
+CMP 13 18.415 11.43 270 N D55 SOD3715X135N ;0=1,1=1.35;ID=13667
+PRP AVAILABILITY 'In Stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=eda'
+PRP DESCRIPTION ' Diode Switching 150mA 100V 400mW SOD123 | Diodes Inc 1N4148W-7-F '
+PRP MF 'Diodes Inc.'
+PRP MP '1N4148W-7-F'
+PRP PACKAGE 'SOD-123 Fairchild Semiconductor'
+PRP PRICE 'None'
+PRP PURCHASE-URL 'https://pricing.snapeda.com/search?q=1N4148W-7-F&ref=eda'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/1N4148W-7-F/Diodes+Inc./view-part/?ref=snap'
+PRP VALUE '1N4148W'
+TOP 0 18.415 9.75 270 N 33 7 C
+TOP 1 18.415 13.11 270 N 132 1 A
+#
+# CMP 159
+CMP 19 13.97 24.765 90 N JP3 SMT-JUMPER_2_NC_TRACE_NO-SILK ;0=1;ID=13668
+PRP VALUE 'JUMPER-SMT_2_NC_TRACE_NO-SILK'
+TOP 0 13.97 25.2857 90 N 53 5 1
+TOP 1 13.97 24.2443 90 N 131 1 2
+#
+# CMP 160
+CMP 21 21 98.95 0 N LED1 LED_SK6812-E ;0=1;ID=13669
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 23.6 99.7 180 N 130 1 4
+TOP 1 23.6 98.2 180 N 2 55 3
+TOP 2 18.4 98.2 180 N 134 0 2
+TOP 3 18.4 99.7 180 N 10 9 1
+#
+# CMP 161
+CMP 9 299.0596 102.7176 0 N C17 CAPC2012X110 ;0=1;ID=13671
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 299.935 102.7176 180 N 2 56 1
+TOP 1 298.1842 102.7176 180 N 10 10 2
+#
+# CMP 162
+CMP 21 40.05 98.95 0 N LED2 LED_SK6812-E ;0=1;ID=13672
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 42.65 99.7 180 N 134 1 4
+TOP 1 42.65 98.2 180 N 2 57 3
+TOP 2 37.45 98.2 180 N 135 0 2
+TOP 3 37.45 99.7 180 N 10 11 1
+#
+# CMP 163
+CMP 9 280.0096 102.7176 0 N C18 CAPC2012X110 ;0=1;ID=13674
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 280.885 102.7176 180 N 2 58 1
+TOP 1 279.1342 102.7176 180 N 10 12 2
+#
+# CMP 164
+CMP 21 59.1 98.95 0 N LED3 LED_SK6812-E ;0=1;ID=13675
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 61.7 99.7 180 N 135 1 4
+TOP 1 61.7 98.2 180 N 2 59 3
+TOP 2 56.5 98.2 180 N 136 0 2
+TOP 3 56.5 99.7 180 N 10 13 1
+#
+# CMP 165
+CMP 9 260.9596 102.7176 0 N C19 CAPC2012X110 ;0=1;ID=13677
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 261.835 102.7176 180 N 2 60 1
+TOP 1 260.0842 102.7176 180 N 10 14 2
+#
+# CMP 166
+CMP 21 78.15 98.95 0 N LED4 LED_SK6812-E ;0=1;ID=13678
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 80.75 99.7 180 N 136 1 4
+TOP 1 80.75 98.2 180 N 2 61 3
+TOP 2 75.55 98.2 180 N 137 0 2
+TOP 3 75.55 99.7 180 N 10 15 1
+#
+# CMP 167
+CMP 9 241.9096 102.7176 0 N C20 CAPC2012X110 ;0=1;ID=13680
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 242.785 102.7176 180 N 2 62 1
+TOP 1 241.0342 102.7176 180 N 10 16 2
+#
+# CMP 168
+CMP 21 97.2 98.95 0 N LED5 LED_SK6812-E ;0=1;ID=13681
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 99.8 99.7 180 N 137 1 4
+TOP 1 99.8 98.2 180 N 2 63 3
+TOP 2 94.6 98.2 180 N 138 0 2
+TOP 3 94.6 99.7 180 N 10 17 1
+#
+# CMP 169
+CMP 9 222.8596 102.7176 0 N C21 CAPC2012X110 ;0=1;ID=13683
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 223.735 102.7176 180 N 2 64 1
+TOP 1 221.9842 102.7176 180 N 10 18 2
+#
+# CMP 170
+CMP 21 116.25 98.95 0 N LED6 LED_SK6812-E ;0=1;ID=13684
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 118.85 99.7 180 N 138 1 4
+TOP 1 118.85 98.2 180 N 2 65 3
+TOP 2 113.65 98.2 180 N 139 0 2
+TOP 3 113.65 99.7 180 N 10 19 1
+#
+# CMP 171
+CMP 9 203.8096 102.7176 0 N C22 CAPC2012X110 ;0=1;ID=13686
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 204.685 102.7176 180 N 2 66 1
+TOP 1 202.9342 102.7176 180 N 10 20 2
+#
+# CMP 172
+CMP 21 116.2304 79.9084 0 N LED7 LED_SK6812-E ;0=1;ID=13687
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 118.8304 80.6584 180 N 139 1 4
+TOP 1 118.8304 79.1584 180 N 2 67 3
+TOP 2 113.6304 79.1584 180 N 140 0 2
+TOP 3 113.6304 80.6584 180 N 10 21 1
+#
+# CMP 173
+CMP 9 116.1796 102.7176 0 N C23 CAPC2012X110 ;0=1;ID=13689
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 117.055 102.7176 180 N 2 68 1
+TOP 1 115.3042 102.7176 180 N 10 22 2
+#
+# CMP 174
+CMP 21 97.1804 79.9084 0 N LED8 LED_SK6812-E ;0=1;ID=13690
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 99.7804 80.6584 180 N 140 1 4
+TOP 1 99.7804 79.1584 180 N 2 69 3
+TOP 2 94.5804 79.1584 180 N 141 0 2
+TOP 3 94.5804 80.6584 180 N 10 23 1
+#
+# CMP 175
+CMP 9 97.1296 102.7176 0 N C24 CAPC2012X110 ;0=1;ID=13692
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 98.005 102.7176 180 N 2 70 1
+TOP 1 96.2542 102.7176 180 N 10 24 2
+#
+# CMP 176
+CMP 21 78.1304 79.9084 0 N LED9 LED_SK6812-E ;0=1;ID=13693
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 80.7304 80.6584 180 N 141 1 4
+TOP 1 80.7304 79.1584 180 N 2 71 3
+TOP 2 75.5304 79.1584 180 N 142 0 2
+TOP 3 75.5304 80.6584 180 N 10 25 1
+#
+# CMP 177
+CMP 9 78.0796 102.7176 0 N C25 CAPC2012X110 ;0=1;ID=13695
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 78.955 102.7176 180 N 2 72 1
+TOP 1 77.2042 102.7176 180 N 10 26 2
+#
+# CMP 178
+CMP 21 59.0804 79.9084 0 N LED10 LED_SK6812-E ;0=1;ID=13696
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 61.6804 80.6584 180 N 142 1 4
+TOP 1 61.6804 79.1584 180 N 2 73 3
+TOP 2 56.4804 79.1584 180 N 143 0 2
+TOP 3 56.4804 80.6584 180 N 10 27 1
+#
+# CMP 179
+CMP 9 59.0296 102.7176 0 N C26 CAPC2012X110 ;0=1;ID=13698
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 59.905 102.7176 180 N 2 74 1
+TOP 1 58.1542 102.7176 180 N 10 28 2
+#
+# CMP 180
+CMP 21 40.0304 79.9084 0 N LED11 LED_SK6812-E ;0=1;ID=13699
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 42.6304 80.6584 180 N 143 1 4
+TOP 1 42.6304 79.1584 180 N 2 75 3
+TOP 2 37.4304 79.1584 180 N 144 0 2
+TOP 3 37.4304 80.6584 180 N 10 29 1
+#
+# CMP 181
+CMP 9 39.9796 102.7176 0 N C27 CAPC2012X110 ;0=1;ID=13701
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 40.855 102.7176 180 N 2 76 1
+TOP 1 39.1042 102.7176 180 N 10 30 2
+#
+# CMP 182
+CMP 21 20.9804 79.9084 0 N LED12 LED_SK6812-E ;0=1;ID=13702
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 23.5804 80.6584 180 N 144 1 4
+TOP 1 23.5804 79.1584 180 N 2 77 3
+TOP 2 18.3804 79.1584 180 N 145 0 2
+TOP 3 18.3804 80.6584 180 N 10 31 1
+#
+# CMP 183
+CMP 9 20.9296 102.7176 0 N C28 CAPC2012X110 ;0=1;ID=13704
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 21.805 102.7176 180 N 2 78 1
+TOP 1 20.0542 102.7176 180 N 10 32 2
+#
+# CMP 184
+CMP 21 21 60.85 0 N LED13 LED_SK6812-E ;0=1;ID=13705
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 23.6 61.6 180 N 145 1 4
+TOP 1 23.6 60.1 180 N 2 79 3
+TOP 2 18.4 60.1 180 N 146 0 2
+TOP 3 18.4 61.6 180 N 10 33 1
+#
+# CMP 185
+CMP 9 299.0596 83.6676 0 N C29 CAPC2012X110 ;0=1;ID=13707
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 299.935 83.6676 180 N 2 80 1
+TOP 1 298.1842 83.6676 180 N 10 34 2
+#
+# CMP 186
+CMP 21 40.05 60.85 0 N LED14 LED_SK6812-E ;0=1;ID=13708
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 42.65 61.6 180 N 146 1 4
+TOP 1 42.65 60.1 180 N 2 81 3
+TOP 2 37.45 60.1 180 N 147 0 2
+TOP 3 37.45 61.6 180 N 10 35 1
+#
+# CMP 187
+CMP 9 280.0096 83.6676 0 N C30 CAPC2012X110 ;0=1;ID=13710
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 280.885 83.6676 180 N 2 82 1
+TOP 1 279.1342 83.6676 180 N 10 36 2
+#
+# CMP 188
+CMP 21 59.1 60.85 0 N LED15 LED_SK6812-E ;0=1;ID=13711
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 61.7 61.6 180 N 147 1 4
+TOP 1 61.7 60.1 180 N 2 83 3
+TOP 2 56.5 60.1 180 N 148 0 2
+TOP 3 56.5 61.6 180 N 10 37 1
+#
+# CMP 189
+CMP 9 260.9596 83.6676 0 N C31 CAPC2012X110 ;0=1;ID=13713
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 261.835 83.6676 180 N 2 84 1
+TOP 1 260.0842 83.6676 180 N 10 38 2
+#
+# CMP 190
+CMP 21 78.15 60.85 0 N LED16 LED_SK6812-E ;0=1;ID=13714
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 80.75 61.6 180 N 148 1 4
+TOP 1 80.75 60.1 180 N 2 85 3
+TOP 2 75.55 60.1 180 N 149 0 2
+TOP 3 75.55 61.6 180 N 10 39 1
+#
+# CMP 191
+CMP 9 241.9096 83.6676 0 N C32 CAPC2012X110 ;0=1;ID=13716
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 242.785 83.6676 180 N 2 86 1
+TOP 1 241.0342 83.6676 180 N 10 40 2
+#
+# CMP 192
+CMP 21 97.2 60.85 0 N LED17 LED_SK6812-E ;0=1;ID=13717
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 99.8 61.6 180 N 149 1 4
+TOP 1 99.8 60.1 180 N 2 87 3
+TOP 2 94.6 60.1 180 N 150 0 2
+TOP 3 94.6 61.6 180 N 10 41 1
+#
+# CMP 193
+CMP 9 222.8596 83.6676 0 N C33 CAPC2012X110 ;0=1;ID=13719
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 223.735 83.6676 180 N 2 88 1
+TOP 1 221.9842 83.6676 180 N 10 42 2
+#
+# CMP 194
+CMP 21 116.25 60.85 0 N LED18 LED_SK6812-E ;0=1;ID=13720
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 118.85 61.6 180 N 150 1 4
+TOP 1 118.85 60.1 180 N 2 89 3
+TOP 2 113.65 60.1 180 N 151 0 2
+TOP 3 113.65 61.6 180 N 10 43 1
+#
+# CMP 195
+CMP 9 203.8096 83.6676 0 N C34 CAPC2012X110 ;0=1;ID=13722
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 204.685 83.6676 180 N 2 90 1
+TOP 1 202.9342 83.6676 180 N 10 44 2
+#
+# CMP 196
+CMP 21 116.2304 41.8084 0 N LED19 LED_SK6812-E ;0=1;ID=13723
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 118.8304 42.5584 180 N 151 1 4
+TOP 1 118.8304 41.0584 180 N 2 91 3
+TOP 2 113.6304 41.0584 180 N 152 0 2
+TOP 3 113.6304 42.5584 180 N 10 45 1
+#
+# CMP 197
+CMP 9 116.1796 83.6676 0 N C35 CAPC2012X110 ;0=1;ID=13725
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 117.055 83.6676 180 N 2 92 1
+TOP 1 115.3042 83.6676 180 N 10 46 2
+#
+# CMP 198
+CMP 21 97.1804 41.8084 0 N LED20 LED_SK6812-E ;0=1;ID=13726
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 99.7804 42.5584 180 N 152 1 4
+TOP 1 99.7804 41.0584 180 N 2 93 3
+TOP 2 94.5804 41.0584 180 N 153 0 2
+TOP 3 94.5804 42.5584 180 N 10 47 1
+#
+# CMP 199
+CMP 9 97.1296 83.6676 0 N C36 CAPC2012X110 ;0=1;ID=13728
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 98.005 83.6676 180 N 2 94 1
+TOP 1 96.2542 83.6676 180 N 10 48 2
+#
+# CMP 200
+CMP 21 78.1304 41.8084 0 N LED21 LED_SK6812-E ;0=1;ID=13729
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 80.7304 42.5584 180 N 153 1 4
+TOP 1 80.7304 41.0584 180 N 2 95 3
+TOP 2 75.5304 41.0584 180 N 154 0 2
+TOP 3 75.5304 42.5584 180 N 10 49 1
+#
+# CMP 201
+CMP 9 78.0796 83.6676 0 N C37 CAPC2012X110 ;0=1;ID=13731
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 78.955 83.6676 180 N 2 96 1
+TOP 1 77.2042 83.6676 180 N 10 50 2
+#
+# CMP 202
+CMP 21 59.0804 41.8084 0 N LED22 LED_SK6812-E ;0=1;ID=13732
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 61.6804 42.5584 180 N 154 1 4
+TOP 1 61.6804 41.0584 180 N 2 97 3
+TOP 2 56.4804 41.0584 180 N 155 0 2
+TOP 3 56.4804 42.5584 180 N 10 51 1
+#
+# CMP 203
+CMP 9 59.0296 83.6676 0 N C38 CAPC2012X110 ;0=1;ID=13734
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 59.905 83.6676 180 N 2 98 1
+TOP 1 58.1542 83.6676 180 N 10 52 2
+#
+# CMP 204
+CMP 21 40.0304 41.8084 0 N LED23 LED_SK6812-E ;0=1;ID=13735
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 42.6304 42.5584 180 N 155 1 4
+TOP 1 42.6304 41.0584 180 N 2 99 3
+TOP 2 37.4304 41.0584 180 N 156 0 2
+TOP 3 37.4304 42.5584 180 N 10 53 1
+#
+# CMP 205
+CMP 9 39.9796 83.6676 0 N C39 CAPC2012X110 ;0=1;ID=13737
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 40.855 83.6676 180 N 2 100 1
+TOP 1 39.1042 83.6676 180 N 10 54 2
+#
+# CMP 206
+CMP 21 20.9804 41.8084 0 N LED24 LED_SK6812-E ;0=1;ID=13738
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 23.5804 42.5584 180 N 156 1 4
+TOP 1 23.5804 41.0584 180 N 2 101 3
+TOP 2 18.3804 41.0584 180 N 157 0 2
+TOP 3 18.3804 42.5584 180 N 10 55 1
+#
+# CMP 207
+CMP 9 20.9296 83.6676 0 N C40 CAPC2012X110 ;0=1;ID=13740
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 21.805 83.6676 180 N 2 102 1
+TOP 1 20.0542 83.6676 180 N 10 56 2
+#
+# CMP 208
+CMP 21 59.1 22.75 0 N LED25 LED_SK6812-E ;0=1;ID=13741
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 61.7 23.5 180 N 157 1 4
+TOP 1 61.7 22 180 N 2 103 3
+TOP 2 56.5 22 180 N 158 0 2
+TOP 3 56.5 23.5 180 N 10 57 1
+#
+# CMP 209
+CMP 9 299.0596 64.6176 0 N C41 CAPC2012X110 ;0=1;ID=13743
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 299.935 64.6176 180 N 2 104 1
+TOP 1 298.1842 64.6176 180 N 10 58 2
+#
+# CMP 210
+CMP 21 78.15 22.75 0 N LED26 LED_SK6812-E ;0=1;ID=13744
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 80.75 23.5 180 N 158 1 4
+TOP 1 80.75 22 180 N 2 105 3
+TOP 2 75.55 22 180 N 159 0 2
+TOP 3 75.55 23.5 180 N 10 59 1
+#
+# CMP 211
+CMP 9 280.0096 64.6176 0 N C42 CAPC2012X110 ;0=1;ID=13746
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 280.885 64.6176 180 N 2 106 1
+TOP 1 279.1342 64.6176 180 N 10 60 2
+#
+# CMP 212
+CMP 21 106.725 22.75 0 N LED27 LED_SK6812-E ;0=1;ID=13747
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 109.325 23.5 180 N 159 1 4
+TOP 1 109.325 22 180 N 2 107 3
+TOP 2 104.125 22 180 N 160 0 2
+TOP 3 104.125 23.5 180 N 10 61 1
+#
+# CMP 213
+CMP 9 260.9596 64.6176 0 N C43 CAPC2012X110 ;0=1;ID=13749
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 261.835 64.6176 180 N 2 108 1
+TOP 1 260.0842 64.6176 180 N 10 62 2
+#
+# CMP 214
+CMP 21 213.3034 22.75 0 N LED28 LED_SK6812-E ;0=1;ID=13750
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 215.9034 23.5 180 N 160 1 4
+TOP 1 215.9034 22 180 N 2 109 3
+TOP 2 210.7034 22 180 N 161 0 2
+TOP 3 210.7034 23.5 180 N 10 63 1
+#
+# CMP 215
+CMP 9 241.9096 64.6176 0 N C44 CAPC2012X110 ;0=1;ID=13752
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 242.785 64.6176 180 N 2 110 1
+TOP 1 241.0342 64.6176 180 N 10 64 2
+#
+# CMP 216
+CMP 21 241.8276 22.75 0 N LED29 LED_SK6812-E ;0=1;ID=13753
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 244.4276 23.5 180 N 161 1 4
+TOP 1 244.4276 22 180 N 2 111 3
+TOP 2 239.2276 22 180 N 162 0 2
+TOP 3 239.2276 23.5 180 N 10 65 1
+#
+# CMP 217
+CMP 9 222.8596 64.6176 0 N C45 CAPC2012X110 ;0=1;ID=13755
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 223.735 64.6176 180 N 2 112 1
+TOP 1 221.9842 64.6176 180 N 10 66 2
+#
+# CMP 218
+CMP 21 260.903 22.75 0 N LED30 LED_SK6812-E ;0=1;ID=13756
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 263.503 23.5 180 N 162 1 4
+TOP 1 263.503 22 180 N 2 113 3
+TOP 2 258.303 22 180 N 163 0 2
+TOP 3 258.303 23.5 180 N 10 67 1
+#
+# CMP 219
+CMP 9 203.8096 64.6176 0 N C46 CAPC2012X110 ;0=1;ID=13758
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 204.685 64.6176 180 N 2 114 1
+TOP 1 202.9342 64.6176 180 N 10 68 2
+#
+# CMP 220
+CMP 21 299.0088 41.8084 0 N LED31 LED_SK6812-E ;0=1;ID=13759
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 301.6088 42.5584 180 N 163 1 4
+TOP 1 301.6088 41.0584 180 N 2 115 3
+TOP 2 296.4088 41.0584 180 N 164 0 2
+TOP 3 296.4088 42.5584 180 N 10 69 1
+#
+# CMP 221
+CMP 9 116.1796 64.6176 0 N C47 CAPC2012X110 ;0=1;ID=13761
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 117.055 64.6176 180 N 2 116 1
+TOP 1 115.3042 64.6176 180 N 10 70 2
+#
+# CMP 222
+CMP 21 279.9588 41.8084 0 N LED32 LED_SK6812-E ;0=1;ID=13762
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 282.5588 42.5584 180 N 164 1 4
+TOP 1 282.5588 41.0584 180 N 2 117 3
+TOP 2 277.3588 41.0584 180 N 165 0 2
+TOP 3 277.3588 42.5584 180 N 10 71 1
+#
+# CMP 223
+CMP 9 97.1296 64.6176 0 N C48 CAPC2012X110 ;0=1;ID=13764
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 98.005 64.6176 180 N 2 118 1
+TOP 1 96.2542 64.6176 180 N 10 72 2
+#
+# CMP 224
+CMP 21 260.9088 41.8084 0 N LED33 LED_SK6812-E ;0=1;ID=13765
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 263.5088 42.5584 180 N 165 1 4
+TOP 1 263.5088 41.0584 180 N 2 119 3
+TOP 2 258.3088 41.0584 180 N 166 0 2
+TOP 3 258.3088 42.5584 180 N 10 73 1
+#
+# CMP 225
+CMP 9 78.0796 64.6176 0 N C49 CAPC2012X110 ;0=1;ID=13767
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 78.955 64.6176 180 N 2 120 1
+TOP 1 77.2042 64.6176 180 N 10 74 2
+#
+# CMP 226
+CMP 21 241.8588 41.8084 0 N LED34 LED_SK6812-E ;0=1;ID=13768
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 244.4588 42.5584 180 N 166 1 4
+TOP 1 244.4588 41.0584 180 N 2 121 3
+TOP 2 239.2588 41.0584 180 N 167 0 2
+TOP 3 239.2588 42.5584 180 N 10 75 1
+#
+# CMP 227
+CMP 9 59.0296 64.6176 0 N C50 CAPC2012X110 ;0=1;ID=13770
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 59.905 64.6176 180 N 2 122 1
+TOP 1 58.1542 64.6176 180 N 10 76 2
+#
+# CMP 228
+CMP 21 222.8088 41.8084 0 N LED35 LED_SK6812-E ;0=1;ID=13771
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 225.4088 42.5584 180 N 167 1 4
+TOP 1 225.4088 41.0584 180 N 2 123 3
+TOP 2 220.2088 41.0584 180 N 168 0 2
+TOP 3 220.2088 42.5584 180 N 10 77 1
+#
+# CMP 229
+CMP 9 39.9796 64.6176 0 N C51 CAPC2012X110 ;0=1;ID=13773
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 40.855 64.6176 180 N 2 124 1
+TOP 1 39.1042 64.6176 180 N 10 78 2
+#
+# CMP 230
+CMP 21 203.7588 41.8084 0 N LED36 LED_SK6812-E ;0=1;ID=13774
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 206.3588 42.5584 180 N 168 1 4
+TOP 1 206.3588 41.0584 180 N 2 125 3
+TOP 2 201.1588 41.0584 180 N 169 0 2
+TOP 3 201.1588 42.5584 180 N 10 79 1
+#
+# CMP 231
+CMP 9 20.9296 64.6176 0 N C52 CAPC2012X110 ;0=1;ID=13776
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 21.805 64.6176 180 N 2 126 1
+TOP 1 20.0542 64.6176 180 N 10 80 2
+#
+# CMP 232
+CMP 21 203.7276 60.85 0 N LED37 LED_SK6812-E ;0=1;ID=13777
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 206.3276 61.6 180 N 169 1 4
+TOP 1 206.3276 60.1 180 N 2 127 3
+TOP 2 201.1276 60.1 180 N 170 0 2
+TOP 3 201.1276 61.6 180 N 10 81 1
+#
+# CMP 233
+CMP 9 299.0596 45.5676 0 N C53 CAPC2012X110 ;0=1;ID=13779
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 299.935 45.5676 180 N 2 128 1
+TOP 1 298.1842 45.5676 180 N 10 82 2
+#
+# CMP 234
+CMP 21 222.7776 60.85 0 N LED38 LED_SK6812-E ;0=1;ID=13780
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 225.3776 61.6 180 N 170 1 4
+TOP 1 225.3776 60.1 180 N 2 129 3
+TOP 2 220.1776 60.1 180 N 171 0 2
+TOP 3 220.1776 61.6 180 N 10 83 1
+#
+# CMP 235
+CMP 9 280.0096 45.5676 0 N C54 CAPC2012X110 ;0=1;ID=13782
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 280.885 45.5676 180 N 2 130 1
+TOP 1 279.1342 45.5676 180 N 10 84 2
+#
+# CMP 236
+CMP 21 241.8276 60.85 0 N LED39 LED_SK6812-E ;0=1;ID=13783
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 244.4276 61.6 180 N 171 1 4
+TOP 1 244.4276 60.1 180 N 2 131 3
+TOP 2 239.2276 60.1 180 N 172 0 2
+TOP 3 239.2276 61.6 180 N 10 85 1
+#
+# CMP 237
+CMP 9 260.9596 45.5676 0 N C55 CAPC2012X110 ;0=1;ID=13785
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 261.835 45.5676 180 N 2 132 1
+TOP 1 260.0842 45.5676 180 N 10 86 2
+#
+# CMP 238
+CMP 21 260.8776 60.85 0 N LED40 LED_SK6812-E ;0=1;ID=13786
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 263.4776 61.6 180 N 172 1 4
+TOP 1 263.4776 60.1 180 N 2 133 3
+TOP 2 258.2776 60.1 180 N 173 0 2
+TOP 3 258.2776 61.6 180 N 10 87 1
+#
+# CMP 239
+CMP 9 241.9096 45.5676 0 N C56 CAPC2012X110 ;0=1;ID=13788
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 242.785 45.5676 180 N 2 134 1
+TOP 1 241.0342 45.5676 180 N 10 88 2
+#
+# CMP 240
+CMP 21 279.9276 60.85 0 N LED41 LED_SK6812-E ;0=1;ID=13789
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 282.5276 61.6 180 N 173 1 4
+TOP 1 282.5276 60.1 180 N 2 135 3
+TOP 2 277.3276 60.1 180 N 174 0 2
+TOP 3 277.3276 61.6 180 N 10 89 1
+#
+# CMP 241
+CMP 9 222.8596 45.5676 0 N C57 CAPC2012X110 ;0=1;ID=13791
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 223.735 45.5676 180 N 2 136 1
+TOP 1 221.9842 45.5676 180 N 10 90 2
+#
+# CMP 242
+CMP 21 298.9776 60.85 0 N LED42 LED_SK6812-E ;0=1;ID=13792
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 301.5776 61.6 180 N 174 1 4
+TOP 1 301.5776 60.1 180 N 2 137 3
+TOP 2 296.3776 60.1 180 N 175 0 2
+TOP 3 296.3776 61.6 180 N 10 91 1
+#
+# CMP 243
+CMP 9 203.8096 45.5676 0 N C58 CAPC2012X110 ;0=1;ID=13794
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 204.685 45.5676 180 N 2 138 1
+TOP 1 202.9342 45.5676 180 N 10 92 2
+#
+# CMP 244
+CMP 21 299.0088 79.9084 0 N LED43 LED_SK6812-E ;0=1;ID=13795
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 301.6088 80.6584 180 N 175 1 4
+TOP 1 301.6088 79.1584 180 N 2 139 3
+TOP 2 296.4088 79.1584 180 N 176 0 2
+TOP 3 296.4088 80.6584 180 N 10 93 1
+#
+# CMP 245
+CMP 9 116.1796 45.5676 0 N C59 CAPC2012X110 ;0=1;ID=13797
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 117.055 45.5676 180 N 2 140 1
+TOP 1 115.3042 45.5676 180 N 10 94 2
+#
+# CMP 246
+CMP 21 279.9588 79.9084 0 N LED44 LED_SK6812-E ;0=1;ID=13798
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 282.5588 80.6584 180 N 176 1 4
+TOP 1 282.5588 79.1584 180 N 2 141 3
+TOP 2 277.3588 79.1584 180 N 177 0 2
+TOP 3 277.3588 80.6584 180 N 10 95 1
+#
+# CMP 247
+CMP 9 97.1296 45.5676 0 N C60 CAPC2012X110 ;0=1;ID=13800
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 98.005 45.5676 180 N 2 142 1
+TOP 1 96.2542 45.5676 180 N 10 96 2
+#
+# CMP 248
+CMP 21 260.9088 79.9084 0 N LED45 LED_SK6812-E ;0=1;ID=13801
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 263.5088 80.6584 180 N 177 1 4
+TOP 1 263.5088 79.1584 180 N 2 143 3
+TOP 2 258.3088 79.1584 180 N 178 0 2
+TOP 3 258.3088 80.6584 180 N 10 97 1
+#
+# CMP 249
+CMP 9 78.0796 45.5676 0 N C61 CAPC2012X110 ;0=1;ID=13803
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 78.955 45.5676 180 N 2 144 1
+TOP 1 77.2042 45.5676 180 N 10 98 2
+#
+# CMP 250
+CMP 21 241.8588 79.9084 0 N LED46 LED_SK6812-E ;0=1;ID=13804
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 244.4588 80.6584 180 N 178 1 4
+TOP 1 244.4588 79.1584 180 N 2 145 3
+TOP 2 239.2588 79.1584 180 N 179 0 2
+TOP 3 239.2588 80.6584 180 N 10 99 1
+#
+# CMP 251
+CMP 9 59.0296 45.5676 0 N C62 CAPC2012X110 ;0=1;ID=13806
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 59.905 45.5676 180 N 2 146 1
+TOP 1 58.1542 45.5676 180 N 10 100 2
+#
+# CMP 252
+CMP 21 222.8088 79.9084 0 N LED47 LED_SK6812-E ;0=1;ID=13807
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 225.4088 80.6584 180 N 179 1 4
+TOP 1 225.4088 79.1584 180 N 2 147 3
+TOP 2 220.2088 79.1584 180 N 180 0 2
+TOP 3 220.2088 80.6584 180 N 10 101 1
+#
+# CMP 253
+CMP 9 39.9796 45.5676 0 N C63 CAPC2012X110 ;0=1;ID=13809
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 40.855 45.5676 180 N 2 148 1
+TOP 1 39.1042 45.5676 180 N 10 102 2
+#
+# CMP 254
+CMP 21 203.7588 79.9084 0 N LED48 LED_SK6812-E ;0=1;ID=13810
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 206.3588 80.6584 180 N 180 1 4
+TOP 1 206.3588 79.1584 180 N 2 149 3
+TOP 2 201.1588 79.1584 180 N 181 0 2
+TOP 3 201.1588 80.6584 180 N 10 103 1
+#
+# CMP 255
+CMP 9 20.9296 45.5676 0 N C64 CAPC2012X110 ;0=1;ID=13812
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 21.805 45.5676 180 N 2 150 1
+TOP 1 20.0542 45.5676 180 N 10 104 2
+#
+# CMP 256
+CMP 21 203.7334 98.9584 0 N LED49 LED_SK6812-E ;0=1;ID=13813
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 206.3334 99.7084 180 N 181 1 4
+TOP 1 206.3334 98.2084 180 N 2 151 3
+TOP 2 201.1334 98.2084 180 N 182 0 2
+TOP 3 201.1334 99.7084 180 N 10 105 1
+#
+# CMP 257
+CMP 9 260.8746 26.5176 0 N C65 CAPC2012X110 ;0=1;ID=13815
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 261.75 26.5176 180 N 2 152 1
+TOP 1 259.9992 26.5176 180 N 10 106 2
+#
+# CMP 258
+CMP 21 222.7834 98.9584 0 N LED50 LED_SK6812-E ;0=1;ID=13816
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 225.3834 99.7084 180 N 182 1 4
+TOP 1 225.3834 98.2084 180 N 2 153 3
+TOP 2 220.1834 98.2084 180 N 183 0 2
+TOP 3 220.1834 99.7084 180 N 10 107 1
+#
+# CMP 259
+CMP 9 241.8246 26.5176 0 N C66 CAPC2012X110 ;0=1;ID=13818
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 242.7 26.5176 180 N 2 154 1
+TOP 1 240.9492 26.5176 180 N 10 108 2
+#
+# CMP 260
+CMP 21 241.8334 98.9584 0 N LED51 LED_SK6812-E ;0=1;ID=13819
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 244.4334 99.7084 180 N 183 1 4
+TOP 1 244.4334 98.2084 180 N 2 155 3
+TOP 2 239.2334 98.2084 180 N 184 0 2
+TOP 3 239.2334 99.7084 180 N 10 109 1
+#
+# CMP 261
+CMP 9 207.5014 26.543 180 N C67 CAPC2012X110 ;0=1;ID=13821
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 206.626 26.543 0 N 2 156 1
+TOP 1 208.3768 26.543 0 N 10 110 2
+#
+# CMP 262
+CMP 21 260.8834 98.9584 0 N LED52 LED_SK6812-E ;0=1;ID=13822
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 263.4834 99.7084 180 N 184 1 4
+TOP 1 263.4834 98.2084 180 N 2 157 3
+TOP 2 258.2834 98.2084 180 N 185 0 2
+TOP 3 258.2834 99.7084 180 N 10 111 1
+#
+# CMP 263
+CMP 9 100.9454 26.5684 180 N C68 CAPC2012X110 ;0=1;ID=13824
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 100.07 26.5684 0 N 2 158 1
+TOP 1 101.8208 26.5684 0 N 10 112 2
+#
+# CMP 264
+CMP 21 279.9334 98.9584 0 N LED53 LED_SK6812-E ;0=1;ID=13825
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 282.5334 99.7084 180 N 185 1 4
+TOP 1 282.5334 98.2084 180 N 2 159 3
+TOP 2 277.3334 98.2084 180 N 186 0 2
+TOP 3 277.3334 99.7084 180 N 10 113 1
+#
+# CMP 265
+CMP 9 78.15 26.543 0 N C69 CAPC2012X110 ;0=1;ID=13827
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 79.0254 26.543 180 N 2 160 1
+TOP 1 77.2746 26.543 180 N 10 114 2
+#
+# CMP 266
+CMP 21 298.9834 98.9584 0 N LED54 LED_SK6812-E ;0=1;ID=13828
+PRP AVAILABILITY 'Not in stock'
+PRP CHECK_PRICES 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda'
+PRP DESCRIPTION '                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              '
+PRP MF 'DONGGUANG OPSCO OPTOELECTRONICS CO., LTD'
+PRP MP 'SK6812-E'
+PRP PACKAGE 'Package '
+PRP PRICE 'None'
+PRP SNAPEDA_LINK 'https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap'
+PRP VALUE 'SK6812-EJ'
+TOP 0 301.5834 99.7084 180 N 186 1 4
+TOP 1 301.5834 98.2084 180 N 2 161 3
+TOP 2 296.3834 98.2084 180 N 0 33 2
+TOP 3 296.3834 99.7084 180 N 10 115 1
+#
+# CMP 267
+CMP 9 59.1 26.543 0 N C70 CAPC2012X110 ;0=1;ID=13829
+PRP CATEGORY 'Capacitor'
+PRP PACKAGE_SIZE '0805'
+PRP PACKAGE_TYPE 'Surface Mount'
+PRP SUBCATEGORY 'Ceramic Capacitors'
+PRP TYPE 'MLCC'
+PRP VALUE '0.1uF'
+PRP TYPE 'Capacitor'
+TOP 0 59.9754 26.543 180 N 2 162 1
+TOP 1 58.2246 26.543 180 N 10 116 2
+#
+# CMP 268
+CMP 4 132.08 97.155 180 N TP3 B2,54 ;0=1;ID=13830
+PRP POPULARITY '3'
+PRP VALUE 'TPB2,54'
+TOP 0 132.08 97.155 0 N 30 30 TP
+#
+# CMP 269
+CMP 22 189.865 120.015 180 N TP4 B1,27 ;0=1;ID=13831
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 189.865 120.015 0 N 10 117 TP
+#
+# CMP 270
+CMP 4 132.08 92.71 180 N TP5 B2,54 ;0=1;ID=13832
+PRP POPULARITY '3'
+PRP VALUE 'TPB2,54'
+TOP 0 132.08 92.71 0 N 2 163 TP
+#
+# CMP 271
+CMP 22 187.325 120.015 180 N TP6 B1,27 ;0=1;ID=13833
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 187.325 120.015 0 N 2 164 TP
+#
+# CMP 272
+CMP 22 184.785 124.333 180 N TP8 B1,27 ;0=1;ID=13834
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 184.785 124.333 0 N 20 2 TP
+#
+# CMP 273
+CMP 22 184.785 122.047 180 N TP9 B1,27 ;0=1;ID=13835
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 184.785 122.047 0 N 21 2 TP
+#
+# CMP 274
+CMP 22 168.275 64.135 180 N TP10 B1,27 ;0=1;ID=13836
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 168.275 64.135 0 N 57 5 TP
+#
+# CMP 275
+CMP 22 170.815 64.135 180 N TP11 B1,27 ;0=1;ID=13837
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 170.815 64.135 0 N 56 5 TP
+#
+# CMP 276
+CMP 22 168.275 67.31 180 N TP12 B1,27 ;0=1;ID=13838
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 168.275 67.31 0 N 30 31 TP
+#
+# CMP 277
+CMP 22 170.815 67.31 180 N TP7 B1,27 ;0=1;ID=13839
+PRP POPULARITY '19'
+PRP VALUE 'TPB1,27'
+TOP 0 170.815 67.31 0 N 2 165 TP

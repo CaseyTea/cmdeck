@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2025-10-28T01:42:03Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.6318,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "Main Board _Board v200"
+        },
+        "Owner": "Salim Benbouziyane <salim@ocrism.studio>",
+        "Size": {
+            "X": 320.017466,
+            "Y": 56
+        }
+    }
+}

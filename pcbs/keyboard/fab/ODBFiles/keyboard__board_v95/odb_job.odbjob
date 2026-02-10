@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2025-10-28T02:12:16Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Keyboard _Board v95"
+        },
+        "Owner": "Salim Benbouziyane <salim@ocrism.studio>",
+        "Size": {
+            "X": 320,
+            "Y": 136
+        }
+    }
+}
