@@ -20984,6 +20984,51 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="CMDeck-Jumpers">
+<packages>
+<package name="SJ_2_NO">
+<smd name="1" x="-0.75" y="0" dx="1.2" dy="1.5" layer="1" cream="no"/>
+<smd name="2" x="0.75" y="0" dx="1.2" dy="1.5" layer="1" cream="no"/>
+<wire x1="-1.45" y1="-0.85" x2="1.45" y2="-0.85" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="-0.85" x2="1.45" y2="0.85" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="0.85" x2="-1.45" y2="0.85" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="0.85" x2="-1.45" y2="-0.85" width="0.1524" layer="21"/>
+<text x="-1.45" y="1.05" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.45" y="-1.85" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ_2_NO">
+<pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<circle x="-0.635" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="0.635" y="0" radius="0.254" width="0.254" layer="94"/>
+<text x="-2.54" y="1.27" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ_2_NO" prefix="JP">
+<description>Normally-open two-pad solder jumper. No copper or paste bridge is present by default.</description>
+<gates>
+<gate name="G$1" symbol="SJ_2_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ_2_NO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21283,6 +21328,9 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 <part name="SUPPLY93" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND" device="" value="GND"/>
 <part name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27"/>
 <part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27"/>
+<part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
+<part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
+<part name="JP5" library="CMDeck-Jumpers" deviceset="SJ_2_NO" device="" value="DSI 3V3 OPEN"/>
 </parts>
 <sheets>
 <sheet>
@@ -22273,6 +22321,10 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 <instance part="J1" gate="A" x="231.14" y="170.18" smashed="yes" grouprefs="DSI_CSI_CONNECTOR">
 <attribute name="NAME" x="235.3046" y="175.4886" size="2.083" layer="95" ratio="6"/>
 </instance>
+<instance part="JP5" gate="G$1" x="220.98" y="116.84" smashed="yes" grouprefs="DSI_CSI_CONNECTOR">
+<attribute name="NAME" x="218.44" y="118.11" size="1.27" layer="95"/>
+<attribute name="VALUE" x="218.44" y="114.3" size="1.27" layer="96"/>
+</instance>
 <instance part="J2" gate="G$1" x="53.34" y="127" smashed="yes" grouprefs="HDMI_0">
 <attribute name="NAME" x="38.1" y="165.862" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="86.36" size="1.778" layer="96"/>
@@ -22918,8 +22970,15 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 </net>
 <net name="CM5_3.3V" class="0">
 <segment>
-<wire x1="231.14" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91" grouprefs="DSI_CSI_CONNECTOR"/>
+<wire x1="215.9" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91" grouprefs="DSI_CSI_CONNECTOR"/>
 <label x="187.96" y="116.84" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="DSI_CSI_CONNECTOR"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="DSI_3V3" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91" grouprefs="DSI_CSI_CONNECTOR"/>
 <pinref part="J1" gate="A" pin="22"/>
 </segment>
 </net>
@@ -24893,6 +24952,14 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 <attribute name="NAME" x="49.53" y="138.43" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="52.07" y="140.97" size="1.778" layer="97" rot="R90"/>
 </instance>
+<instance part="TP15" gate="G$1" x="124.46" y="144.78" smashed="yes">
+<attribute name="NAME" x="121.92" y="146.05" size="1.27" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" value="PWR_BUTTON" x="125.73" y="143.51" size="1.27" layer="97"/>
+</instance>
+<instance part="TP16" gate="G$1" x="137.16" y="144.78" smashed="yes">
+<attribute name="NAME" x="134.62" y="146.05" size="1.27" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" value="GND" x="138.43" y="143.51" size="1.27" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24906,6 +24973,11 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="TP14" gate="G$1" pin="TP"/>
 <junction x="53.34" y="139.7"/>
+</segment>
+<segment>
+<pinref part="TP16" gate="G$1" pin="TP"/>
+<wire x1="137.16" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<label x="142.24" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SUPPLY60" gate="G$1" pin="GND"/>
@@ -24983,6 +25055,11 @@ Updated by Ella Wu 2021-09-28&lt;br&gt;
 <wire x1="96.52" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
 <label x="99.06" y="109.22" size="1.27" layer="95" xref="yes"/>
 <pinref part="J16" gate="G$1" pin="B3"/>
+</segment>
+<segment>
+<pinref part="TP15" gate="G$1" pin="TP"/>
+<wire x1="124.46" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<label x="129.54" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO16" class="0">

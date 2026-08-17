@@ -41955,6 +41955,9 @@
 <vertex x="315.933671875" y="27.25986875"/>
 <vertex x="315.39256875" y="27.8030875"/>
 </polygon>
+<text x="63.5" y="36.3" size="0.8128" layer="21" ratio="12">X1203 BTN</text>
+<text x="64.65" y="31.3" size="0.6096" layer="21" ratio="12">PWR</text>
+<text x="68.05" y="31.3" size="0.6096" layer="21" ratio="12">GND</text>
 </plain>
 <libraries>
 <library name="Battery_Holder" urn="urn:adsk.eagle:library:27510219">
@@ -53066,6 +53069,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
+<package name="P1-13">
+<description>1.3 mm plated through-hole test/wire pad.</description>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<pad name="TP" x="0" y="0" drill="1.3208" diameter="2.159" shape="octagon"/>
+<text x="-1.016" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="B1,27" urn="urn:adsk.eagle:package:27944/2" type="box">
@@ -53436,6 +53447,21 @@ follow the Milling Layer</text>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="CMDeck-Jumpers">
+<packages>
+<package name="SJ_2_NO">
+<description>Normally-open two-pad solder jumper for DSI 3V3 isolation.</description>
+<smd name="1" x="-0.75" y="0" dx="1.2" dy="1.5" layer="1" cream="no"/>
+<smd name="2" x="0.75" y="0" dx="1.2" dy="1.5" layer="1" cream="no"/>
+<wire x1="-1.45" y1="-0.85" x2="1.45" y2="-0.85" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="-0.85" x2="1.45" y2="0.85" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="0.85" x2="-1.45" y2="0.85" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="0.85" x2="-1.45" y2="-0.85" width="0.1524" layer="21"/>
+<text x="-1.45" y="1.05" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.45" y="-1.85" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -55895,9 +55921,24 @@ Your PCBWay Team
 <attribute name="TP_SIGNAL_NAME" value="" x="19.05" y="48.895" size="1" layer="37"/>
 <attribute name="VALUE" x="19.05" y="50.673" size="0.0254" layer="27"/>
 </element>
+<element name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" value="TPPAD1-13" x="66.04" y="33.655" smashed="yes">
+<attribute name="NAME" x="65.024" y="34.925" size="0.8128" layer="25" ratio="12"/>
+<attribute name="TP_SIGNAL_NAME" value="PWR_BUTTON" x="64.77" y="31.115" size="1" layer="37"/>
+<attribute name="VALUE" x="66.04" y="33.655" size="0.0254" layer="27"/>
+</element>
+<element name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" value="TPPAD1-13" x="68.84" y="33.655" smashed="yes">
+<attribute name="NAME" x="67.824" y="34.925" size="0.8128" layer="25" ratio="12"/>
+<attribute name="TP_SIGNAL_NAME" value="GND" x="67.57" y="31.115" size="1" layer="37"/>
+<attribute name="VALUE" x="68.84" y="33.655" size="0.0254" layer="27"/>
+</element>
+<element name="JP5" library="CMDeck-Jumpers" package="SJ_2_NO" value="DSI 3V3 OPEN" x="181.94" y="46.4796" smashed="yes">
+<attribute name="NAME" x="180.49" y="47.5296" size="0.8128" layer="25" ratio="12"/>
+<attribute name="VALUE" x="180.49" y="44.6296" size="0.8128" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
+<contactref element="TP16" pad="TP"/>
 <contactref element="U1" pad="1"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="7"/>
@@ -58025,7 +58066,7 @@ Your PCBWay Team
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="84"/>
 <contactref element="U1" pad="86"/>
-<contactref element="J1" pad="22"/>
+<contactref element="JP5" pad="1"/>
 <contactref element="U5" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C10" pad="1"/>
@@ -58087,7 +58128,7 @@ Your PCBWay Team
 </via>
 <via x="159.6898" y="18.7452" extent="1-16" drill="0.3">
 </via>
-<wire x1="184.6128" y1="46.4796" x2="164.5896" y2="46.4796" width="0.1524" layer="1"/>
+<wire x1="181.19" y1="46.4796" x2="164.5896" y2="46.4796" width="0.1524" layer="1"/>
 <wire x1="164.5896" y1="46.4796" x2="164.465" y2="46.355" width="0.1524" layer="1"/>
 <via x="164.465" y="46.355" extent="1-16" drill="0.3">
 </via>
@@ -58416,7 +58457,13 @@ Your PCBWay Team
 <wire x1="282.575" y1="47.6686" x2="282.8114" y2="47.905" width="0.1524" layer="16"/>
 <wire x1="281.94" y1="47.6686" x2="282.575" y2="47.6686" width="0.1524" layer="16"/>
 </signal>
+<signal name="DSI_3V3">
+<contactref element="JP5" pad="2"/>
+<contactref element="J1" pad="22"/>
+<wire x1="182.69" y1="46.4796" x2="184.6128" y2="46.4796" width="0.1524" layer="1"/>
+</signal>
 <signal name="PWR_BUTTON">
+<contactref element="TP15" pad="TP"/>
 <contactref element="U1" pad="92"/>
 <contactref element="U$1" pad="PWR_SW"/>
 <contactref element="J16" pad="B3"/>
@@ -58449,8 +58496,6 @@ Your PCBWay Team
 <wire x1="68.4022" y1="45.5466" x2="68.4022" y2="37.4142" width="0.2032" layer="1"/>
 <wire x1="68.4022" y1="37.4142" x2="66.04" y2="35.052" width="0.2032" layer="1"/>
 <wire x1="66.04" y1="35.052" x2="66.04" y2="33.655" width="0.2032" layer="1"/>
-<via x="66.04" y="33.655" extent="1-16" drill="0.35">
-</via>
 <wire x1="65.6516" y1="33.2666" x2="66.04" y2="33.655" width="0.2032" layer="16"/>
 <wire x1="65.6516" y1="30.62791875" x2="65.6516" y2="33.2666" width="0.2032" layer="16"/>
 <wire x1="64.86868125" y1="29.845" x2="65.6516" y2="30.62791875" width="0.2032" layer="16"/>

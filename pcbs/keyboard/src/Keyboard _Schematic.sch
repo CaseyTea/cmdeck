@@ -6465,7 +6465,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="182.88" y="99.06" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="FLASH"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="QSPI_SS_N" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="QSPI_SS_N"/>
+<wire x1="106.68" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="!CS"/>
 <wire x1="185.42" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91" grouprefs="FLASH"/>
